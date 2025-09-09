@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPL Mini League Report</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FPL Mini League Report</h1>
+        <div style="margin: 16px 0;">
+            <label for="gw-selector" style="font-weight: bold; margin-right: 8px;">Gameweek:</label>
+            <select id="gw-selector" style="font-size: 1.1em; padding: 2px 8px;"></select>
+        </div>
+        <p id="report-meta"></p>
+        <div id="gw-selector" style="margin-top:1em;"></div>
+    </header>
+    <main>
+        <section id="awards-section">
+            <h2 id="awards-title"></h2>
+            <div id="awards-grid"></div>
+        </section>
+        <section id="table-section">
+            <h2 id="league-title">Tabulka ligy 🧮</h2>
+            <div id="league-table"></div>
+        </section>
+        <section id="trophycase-section">
+            <div id="trophycase"></div>
+        </section>
+        <section id="eo-section">
+            <h2 id="captains-EO-table">Oblíbení kapitáni <span class="emoji">©</span></h2>
+            <p id="eo-desc">A jejich efektivní vlastnictví (EO)</p>
+            <div id="top-captain"></div>
+            <div id="eo"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Powered by FPL_mini | Inspired by toilet.football</p>
+    </footer>
+    <script src="report.js"></script>
+</main>
+    <script src="report_trophycase.js"></script>
+</body>
+</html>

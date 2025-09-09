@@ -1,0 +1,398 @@
+.top-captain-box {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: #18ebfa;
+    border-radius: 0px;
+    padding: 8px 14px;
+    margin-bottom: 12px;
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #000000;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Menší emoji v buňkách tabulky poličky trofejí (ne v hlavičce) */
+.trophycase-cell {
+    font-size: 0.7em !important;
+    vertical-align: middle;
+}
+.award-drevak { background: #a9743a; color: #fff; }
+/* Barvy popisu u oceneni drevak */
+.award-box.award-drevak .award-desc {color: #fff;}
+.award-box.award-drevak .award-manager {color: #fff;}
+.trophycase-table td.trophycase-manager {
+    border-bottom: none !important;
+    background: none;
+    box-shadow: none;
+    text-align: center;
+    padding-left: 0;
+}
+/* Styl pro poličku trofejí - tabulka: řádky manažeři, sloupce typy trofejí */
+.trophycase-table-wrap {
+    overflow-x: auto;
+    margin-top: 0.5em;
+}
+.trophycase-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    font-size: 1.1em;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+.trophycase-table th, .trophycase-table td {
+    padding: 0.7em 1em;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.trophycase-table th {
+    background: #f7f7fa;
+    color: #222;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.trophycase-table tr:last-child td {
+    border-bottom: none;
+}
+.trophycase-table tr:hover {
+    background: #f0f4ff;
+}
+.trophycase-manager {
+    font-weight: bold;
+    color: #612e88;
+    text-align: left;
+    min-width: 120px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+.trophycase-award-name {
+    font-size: 0.85em;
+    color: #444;
+    display: block;
+    margin-top: 0.1em;
+    letter-spacing: 0.01em;
+}
+.trophycase-cell {
+    font-size: 1.4em;
+    min-width: 60px;
+}
+/* Styl pro poličku trofejí */
+#trophycase-section {
+    margin: 2em 0 2em 0;
+    border-radius: 0.5em;
+    padding: 1.2em 1.5em 1.5em 1.5em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+#trophycase-title {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
+    font-family: 'Oswald', Arial, sans-serif;
+    letter-spacing: 0.03em;
+}
+.trophycase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.7em 1.2em;
+}
+.trophycase-row {
+    background: #fff;
+    border-radius: 0.5em;
+    padding: 0.7em 1em;
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+.trophycase-manager {
+    font-weight: bold;
+    color: #612e88;
+    margin-right: 0.7em;
+    margin-left: 1em;
+    min-width: 110px;
+    display: inline-block;
+}
+.trophycase-trophies {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+/* Bílé písmo pro label Počet manažerů */
+label[for="manager-count"] {
+    color: #fff;
+}
+/* Styl pro tabulku pod awards */
+.custom-league-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+.custom-league-table th, .custom-league-table td {
+    padding: 0.5em 0.8em;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+.custom-league-table th {
+    background: #f7f7fa;
+    font-weight: bold;
+    color: #222;
+}
+.custom-league-table tr:last-child td {
+    border-bottom: none;
+}
+.custom-league-table tr:hover {
+    background: #f0f4ff;
+}
+.chip-label {
+    display: inline-block;
+    background: #e0e0e0;
+    color: #222;
+    border-radius: 0.7em;
+    font-size: 0.95em;
+    padding: 0.1em 0.7em;
+    margin-left: 0.4em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+.award-header .emoji, .award-header span.emoji {
+    font-size: 2.1em;
+    line-height: 1;
+    vertical-align: middle;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f7fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: #222;
+    color: #fff;
+    padding: 1em 2em;
+    text-align: center;
+}
+main {
+    
+    margin: 0em auto;
+    background: #37003c;
+    border-radius: 0px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2em;
+}
+h1 {
+    margin: 0.2em 0 0.5em 0;
+}
+
+h2, #league-title, #awards-title {
+    color: #fff;
+    background: #000000;
+    padding: 0.5em 1em;
+    margin: 5px 0 18px 0;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1.6em;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+/* Awards grid layout */
+#awards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2em;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.award-box {
+    border-radius: 0px;
+    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    padding: 1em 1em 1em 1.2em;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    position: relative;
+}
+.award-box .award-header {
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.2em;
+}
+.award-box .award-value {
+    position: absolute;
+    top: 0,5em;
+    right: 0,5em;
+    font-size: 1.7em;
+    color: #fff;
+    font-weight: bold;
+    background: radial-gradient(circle, rgba(0,0,0,0.95) 60%, rgba(0,0,0,0.2) 100%);
+    box-shadow: 0 5px 8px rgba(0,0,0,1);
+    border-radius: 0px;
+    padding: 0.1em 0.5em;
+    margin-bottom: 0.2em;
+    align-self: flex-end;
+}
+.award-box .award-desc {
+    font-size: 1.5em;
+    color: #222;
+    margin-top: 1em;
+    margin-bottom: -4em;
+    font-family: 'Oswald';
+}
+.award-box .award-manager {
+    font-size: 20px;
+    color: #010101;
+    font-weight: 500;
+    margin-top: auto;
+    align-self: flex-end;
+    text-align: right;
+}
+/* Barvy podle typu ocenění */
+.award-king { background: #ffdd02; }
+.award-most_goals { background: #3b5bdb; color: #fff; }
+.award-rocketeer {
+    background: #18203b;
+    color: #fff;
+    background-image:
+        radial-gradient(circle at 15% 20%, white 1.2px, transparent 1.2px),
+        radial-gradient(circle at 70% 30%, white 1.1px, transparent 1.1px),
+        radial-gradient(circle at 40% 80%, white 1.3px, transparent 1.3px),
+        radial-gradient(circle at 80% 60%, white 1.1px, transparent 1.1px),
+        radial-gradient(circle at 25% 55%, white 1.4px, transparent 1.4px),
+        radial-gradient(circle at 60% 15%, white 1.2px, transparent 1.2px),
+        radial-gradient(circle at 85% 85%, white 1.1px, transparent 1.1px),
+        radial-gradient(circle at 10% 75%, white 1.2px, transparent 1.2px),
+        radial-gradient(circle at 50% 50%, white 1.5px, transparent 1.5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.award-down_the_toilet { background: #674b35; color: #fff; }
+.award-smooth_brain { background: #ffe0e6; }
+.award-bench { background: #38f3d7; }
+.award-default { background: #e9ecef; }
+.award-karbanik { background: #0a7b2e; color: #fff;}
+/* Barvy popisu u oceneni */
+.award-box.award-karbanik .award-desc {color: #fff;}
+.award-box.award-karbanik .award-manager {color: #fff;}
+.award-box.award-most_goals .award-desc {color: #fff;}
+.award-box.award-most_goals .award-manager {color: #fff;}
+.award-box.award-down_the_toilet .award-desc {color: #fff;}
+.award-box.award-down_the_toilet .award-manager {color: #fff;}
+.award-box.award-cock .award-desc {color: #fff;}
+.award-box.award-cock .award-manager {color: #fff;}
+.award-box.award-rocketeer .award-desc {color: #fff;}
+.award-box.award-rocketeer .award-manager {color: #fff;}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 0.5em 0.7em;
+    text-align: left;
+}
+th {
+    background: #f0f4fa;
+}
+tr:nth-child(even) {
+    background: #f9f9fc;
+}
+
+@media (max-width: 1300px) {
+    #awards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    #awards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+#awards-title {
+    display: inline-block;
+    margin: 0 auto 1em auto;
+    padding: 0.3em 0.5em;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#league-title {
+    display: inline-block;
+    margin: 2em auto 1em auto;
+    padding: 0.3em 0.5em;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#trophycase-title {
+    display: inline-block;
+    margin: 2em auto 1em auto;
+    padding: 0.3em 0.5em;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#captains-EO-table {
+    display: inline-block;
+    margin: 2em auto 0em auto;
+    padding: 0.3em 0.5em;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#eo-desc {
+  color: #ffffff;
+  text-align: center;
+  margin: 0em auto 1em auto;
+    padding: 0.3em 0.5em;
+}
+.emoji {
+  font-size: 1.5em;
+  vertical-align: baseline;
+  color:#26e4ff;
+}
+

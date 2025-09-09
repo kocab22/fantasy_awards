@@ -1,0 +1,603 @@
+Analysis generated on: 2025-09-09 09:23:32
+
+
+Manager: Sk Mistřín
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 65
+Rank: 1743774
+Captain: Palmer, 0 points
+Vice-Captain: Haaland, 9 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 15
+Bank Money: 0.0
+Top Scorer: Guéhi, 15 points
+Underperformer: Palmer, 0 points
+Formation: 4-4-2
+Defensive Points: 29
+Attacking Points: 36
+Chip Used: 3xc
+Performance vs Avg: 16.730769230769234
+Rank Movement: 160787
+--------------------------------------------------------------------------------
+
+Manager: FC Chánov
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 38
+Rank: 8516204
+Captain: João Pedro, 18 points
+Vice-Captain: Watkins, 2 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 3
+Bank Money: 0.0
+Top Scorer: B.Fernandes, 10 points
+Underperformer: Ederson M., 0 points
+Formation: 4-3-3
+Defensive Points: 19
+Attacking Points: 33
+Chip Used: None
+Performance vs Avg: -10.269230769230766
+Rank Movement: 82678
+--------------------------------------------------------------------------------
+
+Manager: Taiateam
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 74
+Rank: 544391
+Captain: Haaland, 18 points
+Vice-Captain: Vicario, 3 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 2
+Bank Money: 1.5
+Top Scorer: Haaland, 9 points
+Underperformer: Frimpong, 0 points
+Formation: 3-4-3
+Defensive Points: 7
+Attacking Points: 21
+Chip Used: None
+Performance vs Avg: 25.730769230769234
+Rank Movement: 78512
+--------------------------------------------------------------------------------
+
+Manager: spajk
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 60
+Rank: 2856515
+Captain: João Pedro, 18 points
+Vice-Captain: Palmer, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 4
+Bank Money: 0.0
+Top Scorer: Mbeumo, 10 points (on bench)
+Underperformer: Aït-Nouri, 0 points
+Formation: 5-3-2
+Defensive Points: 10
+Attacking Points: 16
+Chip Used: None
+Performance vs Avg: 11.730769230769234
+Rank Movement: 67739
+--------------------------------------------------------------------------------
+
+Manager: SK Rusava
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 63
+Rank: 2149481
+Captain: M.Salah, 9 points
+Vice-Captain: João Pedro, 9 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 7
+Bank Money: 0.0
+Top Scorer: João Pedro, 9 points
+Underperformer: Wan-Bissaka, 0 points
+Formation: 3-5-2
+Defensive Points: 10
+Attacking Points: 22
+Chip Used: 3xc
+Performance vs Avg: 14.730769230769234
+Rank Movement: 146470
+--------------------------------------------------------------------------------
+
+Manager: Roman 11
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 49
+Rank: 6072149
+Captain: Bowen, 18 points
+Vice-Captain: Kelleher, 1 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 3
+Bank Money: 0.5
+Top Scorer: Guéhi, 15 points
+Underperformer: Wan-Bissaka, 0 points
+Formation: 4-4-2
+Defensive Points: 25
+Attacking Points: 30
+Chip Used: None
+Performance vs Avg: 0.7307692307692335
+Rank Movement: 89178
+--------------------------------------------------------------------------------
+
+Manager: K.V.B
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 30
+Rank: 9249052
+Captain: João Pedro, 18 points
+Vice-Captain: Pickford, 1 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 6
+Bank Money: 0.5
+Top Scorer: Szoboszlai, 13 points
+Underperformer: Frimpong, 0 points
+Formation: 3-5-2
+Defensive Points: 12
+Attacking Points: 37
+Chip Used: None
+Performance vs Avg: -18.269230769230766
+Rank Movement: 9335
+--------------------------------------------------------------------------------
+
+Manager: špuntovky
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 47
+Rank: 6639003
+Captain: Palmer, 0 points
+Vice-Captain: Saka, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 10
+Bank Money: 1.5
+Top Scorer: Diouf, 10 points
+Underperformer: Frimpong, 0 points
+Formation: 3-4-3
+Defensive Points: 13
+Attacking Points: 23
+Chip Used: None
+Performance vs Avg: -1.2692307692307665
+Rank Movement: 156414
+--------------------------------------------------------------------------------
+
+Manager: Rabbits FC
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 45
+Rank: 7165720
+Captain: Palmer, 0 points
+Vice-Captain: João Pedro, 9 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 0
+Bank Money: 0.0
+Top Scorer: Muñoz, 9 points
+Underperformer: Palmer, 0 points
+Formation: 4-4-2
+Defensive Points: 22
+Attacking Points: 13
+Chip Used: None
+Performance vs Avg: -3.2692307692307665
+Rank Movement: 155523
+--------------------------------------------------------------------------------
+
+Manager: ZapleTeam
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 40
+Rank: 8200248
+Captain: Caicedo, 8 points
+Vice-Captain: Virgil, 8 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 30
+Bank Money: 1.5
+Top Scorer: Szoboszlai, 13 points
+Underperformer: Palmer, 0 points
+Formation: 3-4-3
+Defensive Points: 11
+Attacking Points: 35
+Chip Used: None
+Performance vs Avg: -8.269230769230766
+Rank Movement: 109039
+--------------------------------------------------------------------------------
+
+Manager: TS9
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 49
+Rank: 6072149
+Captain: João Pedro, 18 points
+Vice-Captain: Palmer, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 8
+Bank Money: 0.5
+Top Scorer: Mbeumo, 10 points
+Underperformer: Frimpong, 0 points
+Formation: 3-4-3
+Defensive Points: 4
+Attacking Points: 27
+Chip Used: None
+Performance vs Avg: 0.7307692307692335
+Rank Movement: 122318
+--------------------------------------------------------------------------------
+
+Manager: Bea
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 50
+Rank: 5781366
+Captain: Kudus, 4 points
+Vice-Captain: Wirtz, 3 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 17
+Bank Money: 0.0
+Top Scorer: Evanilson, 8 points (on bench)
+Underperformer: Frimpong, 0 points
+Formation: 4-4-2
+Defensive Points: 10
+Attacking Points: 8
+Chip Used: None
+Performance vs Avg: 1.7307692307692335
+Rank Movement: 90304
+--------------------------------------------------------------------------------
+
+Manager: Hadgim87
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 42
+Rank: 7826128
+Captain: Palmer, 0 points
+Vice-Captain: Solanke, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 0
+Bank Money: 2.5
+Top Scorer: Mbeumo, 10 points
+Underperformer: Palmer, 0 points
+Formation: 3-4-3
+Defensive Points: 12
+Attacking Points: 34
+Chip Used: None
+Performance vs Avg: -6.2692307692307665
+Rank Movement: 78325
+--------------------------------------------------------------------------------
+
+Manager: ⚽Bright Future⚽
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 54
+Rank: 4551060
+Captain: Palmer, 0 points
+Vice-Captain: Wood, 2 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 11
+Bank Money: 0.0
+Top Scorer: Diouf, 10 points
+Underperformer: Palmer, 0 points
+Formation: 4-5-1
+Defensive Points: 20
+Attacking Points: 17
+Chip Used: None
+Performance vs Avg: 5.7307692307692335
+Rank Movement: 66782
+--------------------------------------------------------------------------------
+
+Manager: Lokomotiva Prales
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 49
+Rank: 6072149
+Captain: M.Salah, 6 points
+Vice-Captain: Sánchez, 6 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 3
+Bank Money: 0.0
+Top Scorer: João Pedro, 9 points
+Underperformer: Palmer, 0 points
+Formation: 4-4-2
+Defensive Points: 17
+Attacking Points: 19
+Chip Used: None
+Performance vs Avg: 0.7307692307692335
+Rank Movement: 194202
+--------------------------------------------------------------------------------
+
+Manager: VALD�VALD
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 56
+Rank: 3932979
+Captain: Bowen, 18 points
+Vice-Captain: M.Salah, 3 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 10
+Bank Money: 0.0
+Top Scorer: Guéhi, 15 points (on bench)
+Underperformer: Wan-Bissaka, 0 points
+Formation: 4-4-2
+Defensive Points: 13
+Attacking Points: 29
+Chip Used: None
+Performance vs Avg: 7.7307692307692335
+Rank Movement: 76755
+--------------------------------------------------------------------------------
+
+Manager: GRAFICI No.1
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 58
+Rank: 3379513
+Captain: M.Salah, 6 points
+Vice-Captain: Palmer, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 20
+Bank Money: 0.0
+Top Scorer: João Pedro, 9 points
+Underperformer: Aït-Nouri, 0 points
+Formation: 3-4-3
+Defensive Points: 8
+Attacking Points: 26
+Chip Used: None
+Performance vs Avg: 9.730769230769234
+Rank Movement: 86856
+--------------------------------------------------------------------------------
+
+Manager: Larrychester Kngntd
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 45
+Rank: 7165720
+Captain: Palmer, 0 points
+Vice-Captain: Grealish, 10 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 7
+Bank Money: 0.0
+Top Scorer: Chalobah, 13 points (on bench)
+Underperformer: Palmer, 0 points
+Formation: 3-5-2
+Defensive Points: 24
+Attacking Points: 28
+Chip Used: None
+Performance vs Avg: -3.2692307692307665
+Rank Movement: 128046
+--------------------------------------------------------------------------------
+
+Manager: Jenda KTBFFH
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 48
+Rank: 6360211
+Captain: Palmer, 0 points
+Vice-Captain: Watkins, 2 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 14
+Bank Money: 0.0
+Top Scorer: Diouf, 10 points
+Underperformer: Palmer, 0 points
+Formation: 4-4-2
+Defensive Points: 24
+Attacking Points: 22
+Chip Used: None
+Performance vs Avg: -0.2692307692307665
+Rank Movement: 149180
+--------------------------------------------------------------------------------
+
+Manager: Sen Jirky Luňáka
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 54
+Rank: 4551060
+Captain: Bowen, 18 points
+Vice-Captain: Palmer, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 14
+Bank Money: 0.0
+Top Scorer: Diouf, 10 points
+Underperformer: Palmer, 0 points
+Formation: 3-5-2
+Defensive Points: 23
+Attacking Points: 37
+Chip Used: None
+Performance vs Avg: 5.7307692307692335
+Rank Movement: 79225
+--------------------------------------------------------------------------------
+
+Manager: KVETOS FC
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 46
+Rank: 6908104
+Captain: M.Salah, 6 points
+Vice-Captain: Palmer, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 4
+Bank Money: 0.0
+Top Scorer: B.Fernandes, 10 points
+Underperformer: Wan-Bissaka, 0 points
+Formation: 3-5-2
+Defensive Points: 6
+Attacking Points: 40
+Chip Used: None
+Performance vs Avg: -2.2692307692307665
+Rank Movement: 17844
+--------------------------------------------------------------------------------
+
+Manager: RAM
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 33
+Rank: 9060361
+Captain: M.Salah, 6 points
+Vice-Captain: João Pedro, 9 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 6
+Bank Money: 0.5
+Top Scorer: Mbeumo, 10 points
+Underperformer: Wan-Bissaka, 0 points
+Formation: 4-4-2
+Defensive Points: 7
+Attacking Points: 25
+Chip Used: None
+Performance vs Avg: -15.269230769230766
+Rank Movement: 38619
+--------------------------------------------------------------------------------
+
+Manager: TJ Sokol Mysločovice
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 50
+Rank: 5781366
+Captain: M.Salah, 6 points
+Vice-Captain: João Pedro, 9 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 4
+Bank Money: 0.0
+Top Scorer: João Pedro, 9 points
+Underperformer: Arrizabalaga, 0 points
+Formation: 4-4-2
+Defensive Points: 17
+Attacking Points: 24
+Chip Used: None
+Performance vs Avg: 1.7307692307692335
+Rank Movement: 69141
+--------------------------------------------------------------------------------
+
+Manager: FC Zlín
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 32
+Rank: 9132927
+Captain: Palmer, 0 points
+Vice-Captain: Saka, 0 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 21
+Bank Money: 0.0
+Top Scorer: Szoboszlai, 13 points (on bench)
+Underperformer: Wan-Bissaka, 0 points
+Formation: 4-4-2
+Defensive Points: 13
+Attacking Points: 11
+Chip Used: None
+Performance vs Avg: -16.269230769230766
+Rank Movement: 61097
+--------------------------------------------------------------------------------
+
+Manager: tomastep
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 41
+Rank: 8019956
+Captain: Palmer, 0 points
+Vice-Captain: Watkins, 2 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 4
+Bank Money: 0.5
+Top Scorer: B.Fernandes, 10 points
+Underperformer: Palmer, 0 points
+Formation: 3-5-2
+Defensive Points: 12
+Attacking Points: 26
+Chip Used: None
+Performance vs Avg: -7.2692307692307665
+Rank Movement: 160628
+--------------------------------------------------------------------------------
+
+Manager: FC Totoro MEI
+--------------------------------------------------------------------------------
+Gameweek: 1
+Points: 37
+Rank: 8650867
+Captain: Palmer, 0 points
+Vice-Captain: Wood, 2 points
+Transfers: 0
+Transfer Cost: 0
+Team Value: 100.0
+Points on Bench: 16
+Bank Money: 0.0
+Top Scorer: Guéhi, 15 points (on bench)
+Underperformer: Palmer, 0 points
+Formation: 3-4-3
+Defensive Points: 14
+Attacking Points: 21
+Chip Used: None
+Performance vs Avg: -11.269230769230766
+Rank Movement: 47743
+--------------------------------------------------------------------------------
+
+League Standings:
+Team Name,Points
+Sk Mistřín,65
+FC Chánov,38
+Taiateam,74
+spajk,60
+SK Rusava,63
+Roman 11,49
+K.V.B,30
+špuntovky,47
+Rabbits FC,45
+ZapleTeam,40
+TS9,49
+Bea,50
+Hadgim87,42
+⚽Bright Future⚽,54
+Lokomotiva Prales,49
+VALD�VALD,56
+GRAFICI No.1,58
+Larrychester Kngntd,45
+Jenda KTBFFH,48
+Sen Jirky Luňáka,54
+KVETOS FC,46
+RAM,33
+TJ Sokol Mysločovice,50
+FC Zlín,32
+tomastep,41
+FC Totoro MEI,37
