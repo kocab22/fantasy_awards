@@ -1,3 +1,32 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(90deg, #953bff,#05f0ff);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+@media (max-width: 500px) {
+    #awards-grid .award-header {
+        font-size: 1.5em;
+    }
+    #awards-grid .award-value {
+        font-size: 1.25em;
+    }
+    #awards-grid .award-desc {
+        font-size: 1em;
+    }
+    #awards-grid .award-manager {
+        font-size: 0.91em;
+    }
+}
+/* Zarovnání počtu manažerů na střed pod tabulkou */
+.manager-count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
 .top-captain-box {
     display: inline-block;
     text-align: center;
@@ -131,12 +160,14 @@ label[for="manager-count"] {
 /* Styl pro tabulku pod awards */
 .custom-league-table {
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 2em;
+    max-width: 900px;
+    margin: 0 auto 2em auto;
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     border-radius: 0.5em;
-    overflow: hidden;
+    overflow-x: auto;
+    display: block;
+    box-sizing: border-box;
 }
 .custom-league-table th, .custom-league-table td {
     padding: 0.5em 0.8em;
@@ -178,9 +209,9 @@ body {
     padding: 0;
 }
 header, footer {
-    background: #222;
+    background:linear-gradient(90deg,#05f0ff, #953bff);
     color: #fff;
-    padding: 1em 2em;
+    padding: 1px 1px;
     text-align: center;
 }
 main {
@@ -189,17 +220,19 @@ main {
     background: #37003c;
     border-radius: 0px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    padding: 2em;
+    padding: 8px;
 }
 h1 {
-    margin: 0.2em 0 0.5em 0;
+    margin: 1px 0 1px 0;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1.5em;
 }
 
 h2, #league-title, #awards-title {
     color: #fff;
     background: #000000;
-    padding: 0.5em 1em;
-    margin: 5px 0 18px 0;
+    padding: 0.5em 0.5em;
+    margin: 5px 0 5px 0;
     font-family: 'Oswald', Arial, sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.03em;
@@ -330,7 +363,7 @@ tr:nth-child(even) {
 
 #awards-title {
     display: inline-block;
-    margin: 0 auto 1em auto;
+    margin: 0 auto 0 auto;
     padding: 0.3em 0.5em;
     background: #000000;
     color: #ffffff;
@@ -394,5 +427,11 @@ tr:nth-child(even) {
   font-size: 1.5em;
   vertical-align: baseline;
   color:#26e4ff;
+}
+#table-section {
+    margin: 2em 0 2em 0;
+    border-radius: 0.5em;
+    padding: 1.2em 1.5em 1.5em 1.5em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
 

@@ -5,7 +5,6 @@ async function loadReport(gw = 3) {
     const awardsGrid = document.getElementById('awards-grid');
     const leagueTable = document.getElementById('league-table');
     const eoDiv = document.getElementById('eo');
-    const meta = document.getElementById('report-meta');
     const awardsTitle = document.getElementById('awards-title');
     try {
         // Načti hlavní report
@@ -30,13 +29,14 @@ async function loadReport(gw = 3) {
 
         window.lastReportData = data;
         window.lastLeagueTable = data.league_table;
-        renderMeta(data);
+    // awardsTitle nastavuje titulek trofejí
+    if (awardsTitle) awardsTitle.textContent = `GW${data.gameweek} – trofeje 🏆`;
         renderAwards(data.awards);
         renderTable(data.league_table);
         renderEO(data.effective_ownership);
     } catch (err) {
         // Vymaž starý obsah a zobraz error hlášku
-        if (meta) meta.textContent = '';
+    // odstraněno: meta
         if (awardsTitle) awardsTitle.textContent = '';
         if (awardsGrid) awardsGrid.innerHTML = '';
         if (leagueTable) leagueTable.innerHTML = '';
@@ -48,14 +48,6 @@ async function loadReport(gw = 3) {
     }
 }
 
-function renderMeta(data) {
-    const meta = document.getElementById('report-meta');
-    meta.textContent = `Gameweek: ${data.gameweek} | Vygenerováno: ${new Date(data.generated_at).toLocaleString()}`;
-    const awardsTitle = document.getElementById('awards-title');
-    if (awardsTitle) {
-        awardsTitle.textContent = `GW${data.gameweek} – trofeje 🏆`;
-    }
-}
 
 function renderAwards(awards) {
     const awardsGrid = document.getElementById('awards-grid');
@@ -67,7 +59,7 @@ function renderAwards(awards) {
         drevak:    { icon: '🥾', header: 'DŘEVÁK', desc: 'Nejhorší GW', color: 'award-drevak', value: a => `${a.points} pts` },
         most_goals: { icon: '⚽️', header: 'STŘELEC', desc: 'Nejvíc gólů', color: 'award-most_goals', value: a => `${a.goals}×⚽️` },
         rocketeer: { icon: '🚀', header: 'RAKEŤÁK', desc: 'Největší posun', color: 'award-rocketeer', value: a => `${a.rank_movement > 0 ? '+' : ''}${a.rank_movement} míst` },
-        down_the_toilet: { icon: '🚽', header: 'SPLACHOVADLO', desc: 'Největší propad', color: 'award-down_the_toilet', value: a => `${a.rank_movement} míst` },
+    down_the_toilet: { icon: '🚽', header: 'SPLACHOVAČ', desc: 'Největší propad', color: 'award-down_the_toilet', value: a => `${a.rank_movement} míst` },
         smooth_brain: { icon: '🪑', header: 'LAVIČKA', desc: 'Nejvíc bodů na lavičce', color: 'award-bench', value: a => `${a.bench_points} pts` },
         karbanik: { icon: '🃏', header: 'KARBANÍK', desc: 'Nejvíc karet v GW', color: 'award-karbanik', value: a => '' },
     };
@@ -99,11 +91,21 @@ function renderAwards(awards) {
         } else if (a.manager_name) {
             managers = a.manager_name;
         }
+        let managerHtml = '';
+        // Pokud je managers pole, zobraz každého pod sebou
+        if (Array.isArray(managers)) {
+            managerHtml = `<div class=\"award-manager\">${managers.map(name => `<div>${name}</div>`).join('')}</div>`;
+        } else if (typeof managers === 'string' && managers.includes(',')) {
+            // Pokud je to string s čárkami, rozděl na pole
+            managerHtml = `<div class=\"award-manager\">${managers.split(',').map(name => `<div>${name.trim()}</div>`).join('')}</div>`;
+        } else {
+            managerHtml = `<div class=\"award-manager\">${managers}</div>`;
+        }
         box.innerHTML = `
             <div class=\"award-header\"><span class='emoji'>${m.icon}</span> <span>${m.header}</span></div>
             ${valueHtml ? `<div class=\"award-value\">${valueHtml}</div>` : ''}
             <div class=\"award-desc\">${m.desc}</div>
-            <div class=\"award-manager\">${managers}</div>
+            ${managerHtml}
         `;
         awardsGrid.appendChild(box);
     });
@@ -114,9 +116,10 @@ function renderTable(table) {
     if (!table || table.length === 0) { div.innerHTML = '<em>Žádná data</em>'; return; }
     // Seřadit podle celkových bodů
     table.sort((a,b)=>b['Total Points']-a['Total Points']);
-    // Přidat input pro počet zobrazených manažerů
-    let controls = `<label for="manager-count">Počet manažerů: </label><input type="number" id="manager-count" min="1" max="${table.length}" value="${Math.min(10, table.length)}" style="width:60px; margin-bottom:8px;">`;
-    let html = controls + `<table class="custom-league-table"><thead><tr>
+    // Přidat input pro počet zobrazených manažerů do manager-count-container
+    const managerCountContainer = document.getElementById('manager-count-container');
+    managerCountContainer.innerHTML = `<label for="manager-count">Počet manažerů: </label><input type="number" id="manager-count" min="1" max="${table.length}" value="${Math.min(10, table.length)}" style="width:60px; margin-bottom:8px;">`;
+    let html = `<table class="custom-league-table"><thead><tr>
         <th>Pořadí</th>
         <th>Tým</th>
         <th>Manažer</th>

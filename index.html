@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>FPL Mini League Report</h1>
-        <div style="margin: 16px 0;">
+    <header class="sticky-header">
+        <h1>Týdenní report</h1>
+        <div style="margin: 4px 0;">
             <label for="gw-selector" style="font-weight: bold; margin-right: 8px;">Gameweek:</label>
             <select id="gw-selector" style="font-size: 1.1em; padding: 2px 8px;"></select>
         </div>
-        <p id="report-meta"></p>
         <div id="gw-selector" style="margin-top:1em;"></div>
     </header>
     <main>
@@ -24,6 +23,7 @@
         </section>
         <section id="table-section">
             <h2 id="league-title">Tabulka ligy 🧮</h2>
+            <div class="manager-count-container" id="manager-count-container"></div>
             <div id="league-table"></div>
         </section>
         <section id="trophycase-section">
