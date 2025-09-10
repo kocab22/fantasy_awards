@@ -118,7 +118,7 @@ function renderTable(table) {
     table.sort((a,b)=>b['Total Points']-a['Total Points']);
     // Přidat input pro počet zobrazených manažerů do manager-count-container
     const managerCountContainer = document.getElementById('manager-count-container');
-    managerCountContainer.innerHTML = `<label for="manager-count">Počet manažerů: </label><input type="number" id="manager-count" min="1" max="${table.length}" value="${Math.min(10, table.length)}" style="width:60px; margin-bottom:8px;">`;
+    managerCountContainer.innerHTML = `<label for="manager-count"> </label><input type="range" id="manager-count" min="1" max="${table.length}" value="${Math.min(10, table.length)}" style="width:160px; margin-bottom:8px;"><span id="manager-count-value" style="margin-left:8px; font-weight:bold;">${Math.min(10, table.length)}</span>`;
     let html = `<table class="custom-league-table"><thead><tr>
         <th>Pořadí</th>
         <th>Tým</th>
@@ -169,11 +169,13 @@ function renderTable(table) {
     div.innerHTML = html;
     // Event listener pro input
     const input = document.getElementById('manager-count');
+    const valueSpan = document.getElementById('manager-count-value');
     input.addEventListener('input', function() {
         let val = parseInt(this.value, 10);
         if (isNaN(val) || val < 1) val = 1;
         if (val > table.length) val = table.length;
         this.value = val;
+        valueSpan.textContent = val;
         // Přegeneruj řádky tabulky
         const tbody = div.querySelector('tbody');
         tbody.innerHTML = renderRows(val);

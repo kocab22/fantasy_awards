@@ -1,4 +1,4 @@
-Analysis generated on: 2025-09-09 09:18:14
+Analysis generated on: 2025-09-10 13:03:37
 
 
 Manager: Sk Mistřín
@@ -28,7 +28,7 @@ Manager: FC Chánov
 Gameweek: 2
 Points: 89
 Rank: 47846
-Captain: João Pedro, 18 points
+Captain: João Pedro, 30 points
 Vice-Captain: Watkins, 2 points
 Transfers: 1
 Transfer Cost: 0
@@ -50,7 +50,7 @@ Manager: Taiateam
 Gameweek: 2
 Points: 65
 Rank: 1516249
-Captain: Haaland, 18 points
+Captain: Haaland, 4 points
 Vice-Captain: Vicario, 3 points
 Transfers: 0
 Transfer Cost: 0
@@ -116,7 +116,7 @@ Manager: Roman 11
 Gameweek: 2
 Points: 54
 Rank: 4168589
-Captain: M.Salah, 6 points
+Captain: M.Salah, 10 points
 Vice-Captain: Kelleher, 1 points
 Transfers: 0
 Transfer Cost: 0
@@ -138,7 +138,7 @@ Manager: K.V.B
 Gameweek: 2
 Points: 77
 Rank: 335126
-Captain: João Pedro, 18 points
+Captain: João Pedro, 30 points
 Vice-Captain: Pickford, 1 points
 Transfers: 1
 Transfer Cost: 0
@@ -160,7 +160,7 @@ Manager: špuntovky
 Gameweek: 2
 Points: 69
 Rank: 1004320
-Captain: Gyökeres, 2 points
+Captain: Gyökeres, 24 points
 Vice-Captain: Saka, 0 points
 Transfers: 1
 Transfer Cost: 0
@@ -204,7 +204,7 @@ Manager: ZapleTeam
 Gameweek: 2
 Points: 60
 Rank: 2518526
-Captain: Caicedo, 8 points
+Captain: Caicedo, 16 points
 Vice-Captain: Watkins, 2 points
 Transfers: 0
 Transfer Cost: 0
@@ -226,7 +226,7 @@ Manager: TS9
 Gameweek: 2
 Points: 64
 Rank: 1780285
-Captain: Gyökeres, 2 points
+Captain: Gyökeres, 24 points
 Vice-Captain: Palmer, 0 points
 Transfers: 1
 Transfer Cost: 0
@@ -248,7 +248,7 @@ Manager: Bea
 Gameweek: 2
 Points: 61
 Rank: 2290696
-Captain: Saka, 0 points
+Captain: Saka, 12 points
 Vice-Captain: Evanilson, 8 points
 Transfers: 0
 Transfer Cost: 0
@@ -292,7 +292,7 @@ Manager: ⚽Bright Future⚽
 Gameweek: 2
 Points: 43
 Rank: 7673712
-Captain: Saka, 0 points
+Captain: Saka, 12 points
 Vice-Captain: Palmer, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -314,7 +314,7 @@ Manager: Lokomotiva Prales
 Gameweek: 2
 Points: 52
 Rank: 4819979
-Captain: M.Salah, 6 points
+Captain: M.Salah, 10 points
 Vice-Captain: Sánchez, 6 points
 Transfers: 0
 Transfer Cost: 0
@@ -336,7 +336,7 @@ Manager: VALD�VALD
 Gameweek: 2
 Points: 50
 Rank: 5785389
-Captain: Semenyo, 4 points
+Captain: Semenyo, 12 points
 Vice-Captain: M.Salah, 3 points
 Transfers: 3
 Transfer Cost: 8
@@ -424,7 +424,7 @@ Manager: Sen Jirky Luňáka
 Gameweek: 2
 Points: 46
 Rank: 6780851
-Captain: Semenyo, 4 points
+Captain: Semenyo, 12 points
 Vice-Captain: Haaland, 9 points
 Transfers: 0
 Transfer Cost: 0
@@ -446,7 +446,7 @@ Manager: KVETOS FC
 Gameweek: 2
 Points: 39
 Rank: 8702319
-Captain: Haaland, 18 points
+Captain: Haaland, 4 points
 Vice-Captain: M.Salah, 3 points
 Transfers: 0
 Transfer Cost: 0
@@ -468,7 +468,7 @@ Manager: RAM
 Gameweek: 2
 Points: 46
 Rank: 6949813
-Captain: M.Salah, 6 points
+Captain: M.Salah, 10 points
 Vice-Captain: Milenković, 1 points
 Transfers: 1
 Transfer Cost: 0
@@ -490,7 +490,7 @@ Manager: TJ Sokol Mysločovice
 Gameweek: 2
 Points: 54
 Rank: 4331919
-Captain: M.Salah, 6 points
+Captain: M.Salah, 10 points
 Vice-Captain: João Pedro, 9 points
 Transfers: 1
 Transfer Cost: 0

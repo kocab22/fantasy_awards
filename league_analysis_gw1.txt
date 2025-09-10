@@ -1,4 +1,4 @@
-Analysis generated on: 2025-09-09 09:23:32
+Analysis generated on: 2025-09-10 13:03:11
 
 
 Manager: Sk Mistřín
@@ -6,7 +6,7 @@ Manager: Sk Mistřín
 Gameweek: 1
 Points: 65
 Rank: 1743774
-Captain: Palmer, 0 points
+Captain: Palmer, 9 points
 Vice-Captain: Haaland, 9 points
 Transfers: 0
 Transfer Cost: 0
@@ -28,7 +28,7 @@ Manager: FC Chánov
 Gameweek: 1
 Points: 38
 Rank: 8516204
-Captain: João Pedro, 18 points
+Captain: João Pedro, 4 points
 Vice-Captain: Watkins, 2 points
 Transfers: 0
 Transfer Cost: 0
@@ -50,7 +50,7 @@ Manager: Taiateam
 Gameweek: 1
 Points: 74
 Rank: 544391
-Captain: Haaland, 18 points
+Captain: Haaland, 26 points
 Vice-Captain: Vicario, 3 points
 Transfers: 0
 Transfer Cost: 0
@@ -72,7 +72,7 @@ Manager: spajk
 Gameweek: 1
 Points: 60
 Rank: 2856515
-Captain: João Pedro, 18 points
+Captain: João Pedro, 4 points
 Vice-Captain: Palmer, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -94,7 +94,7 @@ Manager: SK Rusava
 Gameweek: 1
 Points: 63
 Rank: 2149481
-Captain: M.Salah, 9 points
+Captain: M.Salah, 24 points
 Vice-Captain: João Pedro, 9 points
 Transfers: 0
 Transfer Cost: 0
@@ -116,7 +116,7 @@ Manager: Roman 11
 Gameweek: 1
 Points: 49
 Rank: 6072149
-Captain: Bowen, 18 points
+Captain: Bowen, 4 points
 Vice-Captain: Kelleher, 1 points
 Transfers: 0
 Transfer Cost: 0
@@ -138,7 +138,7 @@ Manager: K.V.B
 Gameweek: 1
 Points: 30
 Rank: 9249052
-Captain: João Pedro, 18 points
+Captain: João Pedro, 4 points
 Vice-Captain: Pickford, 1 points
 Transfers: 0
 Transfer Cost: 0
@@ -160,7 +160,7 @@ Manager: špuntovky
 Gameweek: 1
 Points: 47
 Rank: 6639003
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Saka, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -182,7 +182,7 @@ Manager: Rabbits FC
 Gameweek: 1
 Points: 45
 Rank: 7165720
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: João Pedro, 9 points
 Transfers: 0
 Transfer Cost: 0
@@ -204,7 +204,7 @@ Manager: ZapleTeam
 Gameweek: 1
 Points: 40
 Rank: 8200248
-Captain: Caicedo, 8 points
+Captain: Caicedo, 10 points
 Vice-Captain: Virgil, 8 points
 Transfers: 0
 Transfer Cost: 0
@@ -226,7 +226,7 @@ Manager: TS9
 Gameweek: 1
 Points: 49
 Rank: 6072149
-Captain: João Pedro, 18 points
+Captain: João Pedro, 4 points
 Vice-Captain: Palmer, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -248,7 +248,7 @@ Manager: Bea
 Gameweek: 1
 Points: 50
 Rank: 5781366
-Captain: Kudus, 4 points
+Captain: Kudus, 20 points
 Vice-Captain: Wirtz, 3 points
 Transfers: 0
 Transfer Cost: 0
@@ -270,7 +270,7 @@ Manager: Hadgim87
 Gameweek: 1
 Points: 42
 Rank: 7826128
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Solanke, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -292,7 +292,7 @@ Manager: ⚽Bright Future⚽
 Gameweek: 1
 Points: 54
 Rank: 4551060
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Wood, 2 points
 Transfers: 0
 Transfer Cost: 0
@@ -314,7 +314,7 @@ Manager: Lokomotiva Prales
 Gameweek: 1
 Points: 49
 Rank: 6072149
-Captain: M.Salah, 6 points
+Captain: M.Salah, 16 points
 Vice-Captain: Sánchez, 6 points
 Transfers: 0
 Transfer Cost: 0
@@ -336,7 +336,7 @@ Manager: VALD�VALD
 Gameweek: 1
 Points: 56
 Rank: 3932979
-Captain: Bowen, 18 points
+Captain: Bowen, 4 points
 Vice-Captain: M.Salah, 3 points
 Transfers: 0
 Transfer Cost: 0
@@ -358,7 +358,7 @@ Manager: GRAFICI No.1
 Gameweek: 1
 Points: 58
 Rank: 3379513
-Captain: M.Salah, 6 points
+Captain: M.Salah, 16 points
 Vice-Captain: Palmer, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -380,7 +380,7 @@ Manager: Larrychester Kngntd
 Gameweek: 1
 Points: 45
 Rank: 7165720
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Grealish, 10 points
 Transfers: 0
 Transfer Cost: 0
@@ -402,7 +402,7 @@ Manager: Jenda KTBFFH
 Gameweek: 1
 Points: 48
 Rank: 6360211
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Watkins, 2 points
 Transfers: 0
 Transfer Cost: 0
@@ -424,7 +424,7 @@ Manager: Sen Jirky Luňáka
 Gameweek: 1
 Points: 54
 Rank: 4551060
-Captain: Bowen, 18 points
+Captain: Bowen, 4 points
 Vice-Captain: Palmer, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -446,7 +446,7 @@ Manager: KVETOS FC
 Gameweek: 1
 Points: 46
 Rank: 6908104
-Captain: M.Salah, 6 points
+Captain: M.Salah, 16 points
 Vice-Captain: Palmer, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -468,7 +468,7 @@ Manager: RAM
 Gameweek: 1
 Points: 33
 Rank: 9060361
-Captain: M.Salah, 6 points
+Captain: M.Salah, 16 points
 Vice-Captain: João Pedro, 9 points
 Transfers: 0
 Transfer Cost: 0
@@ -490,7 +490,7 @@ Manager: TJ Sokol Mysločovice
 Gameweek: 1
 Points: 50
 Rank: 5781366
-Captain: M.Salah, 6 points
+Captain: M.Salah, 16 points
 Vice-Captain: João Pedro, 9 points
 Transfers: 0
 Transfer Cost: 0
@@ -512,7 +512,7 @@ Manager: FC Zlín
 Gameweek: 1
 Points: 32
 Rank: 9132927
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Saka, 0 points
 Transfers: 0
 Transfer Cost: 0
@@ -534,7 +534,7 @@ Manager: tomastep
 Gameweek: 1
 Points: 41
 Rank: 8019956
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Watkins, 2 points
 Transfers: 0
 Transfer Cost: 0
@@ -556,7 +556,7 @@ Manager: FC Totoro MEI
 Gameweek: 1
 Points: 37
 Rank: 8650867
-Captain: Palmer, 0 points
+Captain: Palmer, 6 points
 Vice-Captain: Wood, 2 points
 Transfers: 0
 Transfer Cost: 0

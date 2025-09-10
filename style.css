@@ -155,7 +155,11 @@
 }
 /* Bílé písmo pro label Počet manažerů */
 label[for="manager-count"] {
+    size: 3em;
     color: #fff;
+}
+input[type="range"] {
+    accent-color: aqua;
 }
 /* Styl pro tabulku pod awards */
 .custom-league-table {
@@ -332,11 +336,11 @@ h2, #league-title, #awards-title {
 .award-box.award-rocketeer .award-desc {color: #fff;}
 .award-box.award-rocketeer .award-manager {color: #fff;}
 
-table {
+/* table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 1.5em;
-}
+} */
 th, td {
     border: 1px solid #e0e0e0;
     padding: 0.5em 0.7em;
@@ -365,7 +369,7 @@ tr:nth-child(even) {
     display: inline-block;
     margin: 0 auto 0 auto;
     padding: 0.3em 0.5em;
-    background: #000000;
+    background: #953bff;
     color: #ffffff;
     font-size: 1.3em;
     font-weight: bold;
@@ -379,7 +383,7 @@ tr:nth-child(even) {
     display: inline-block;
     margin: 2em auto 1em auto;
     padding: 0.3em 0.5em;
-    background: #000000;
+    background: #953bff;
     color: #ffffff;
     font-size: 1.3em;
     font-weight: bold;
@@ -393,7 +397,7 @@ tr:nth-child(even) {
     display: inline-block;
     margin: 2em auto 1em auto;
     padding: 0.3em 0.5em;
-    background: #000000;
+    background: #953bff;
     color: #ffffff;
     font-size: 1.3em;
     font-weight: bold;
@@ -407,7 +411,7 @@ tr:nth-child(even) {
     display: inline-block;
     margin: 2em auto 0em auto;
     padding: 0.3em 0.5em;
-    background: #000000;
+    background: #953bff;
     color: #ffffff;
     font-size: 1.3em;
     font-weight: bold;
