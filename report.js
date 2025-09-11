@@ -6,6 +6,10 @@ async function loadReport(gw = 3) {
     const leagueTable = document.getElementById('league-table');
     const eoDiv = document.getElementById('eo');
     const awardsTitle = document.getElementById('awards-title');
+    // Vždy odstraň starou error hlášku při přepnutí GW
+    let awardsSection = document.getElementById('awards-section');
+    let oldError = document.getElementById('gw-error-message');
+    if (oldError) oldError.remove();
     try {
         // Načti hlavní report
         const response = await fetch(`league_analysis_gw${gw}.json`);
@@ -35,16 +39,20 @@ async function loadReport(gw = 3) {
         renderTable(data.league_table);
         renderEO(data.effective_ownership);
     } catch (err) {
-        // Vymaž starý obsah a zobraz error hlášku
-    // odstraněno: meta
-        if (awardsTitle) awardsTitle.textContent = '';
-        if (awardsGrid) awardsGrid.innerHTML = '';
-        if (leagueTable) leagueTable.innerHTML = '';
-        if (eoDiv) eoDiv.innerHTML = '';
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'error-message';
-        errorDiv.textContent = `Data pro GW${gw} se nepodařilo načíst. (${err.message})`;
-        if (awardsGrid) awardsGrid.appendChild(errorDiv);
+    // Vymaž starý obsah a zobraz speciální hlášku pro neexistující GW
+    if (awardsTitle) awardsTitle.textContent = '';
+    if (awardsGrid) awardsGrid.innerHTML = '';
+    if (leagueTable) leagueTable.innerHTML = '';
+    if (eoDiv) eoDiv.innerHTML = '';
+    // Vlož hlášku nad awards-title
+    let awardsSection = document.getElementById('awards-section');
+    let oldError = document.getElementById('gw-error-message');
+    if (oldError) oldError.remove();
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'error-message';
+    errorDiv.id = 'gw-error-message';
+    errorDiv.textContent = '🛑 TOTO KOLO SE JEŠTĚ NEODEHRÁLO 🛑';
+    if (awardsSection) awardsSection.insertBefore(errorDiv, awardsSection.firstChild);
     }
 }
 
@@ -59,7 +67,7 @@ function renderAwards(awards) {
         drevak:    { icon: '🥾', header: 'DŘEVÁK', desc: 'Nejhorší GW', color: 'award-drevak', value: a => `${a.points} pts` },
         most_goals: { icon: '⚽️', header: 'STŘELEC', desc: 'Nejvíc gólů', color: 'award-most_goals', value: a => `${a.goals}×⚽️` },
         rocketeer: { icon: '🚀', header: 'RAKEŤÁK', desc: 'Největší posun', color: 'award-rocketeer', value: a => `${a.rank_movement > 0 ? '+' : ''}${a.rank_movement} míst` },
-    down_the_toilet: { icon: '🚽', header: 'SPLACHOVAČ', desc: 'Největší propad', color: 'award-down_the_toilet', value: a => `${a.rank_movement} míst` },
+    down_the_toilet: { icon: '🪂', header: 'PADÁK', desc: 'Největší propad', color: 'award-down_the_toilet', value: a => `${a.rank_movement} míst` },
         smooth_brain: { icon: '🪑', header: 'LAVIČKA', desc: 'Nejvíc bodů na lavičce', color: 'award-bench', value: a => `${a.bench_points} pts` },
         karbanik: { icon: '🃏', header: 'KARBANÍK', desc: 'Nejvíc karet v GW', color: 'award-karbanik', value: a => '' },
     };
@@ -118,7 +126,10 @@ function renderTable(table) {
     table.sort((a,b)=>b['Total Points']-a['Total Points']);
     // Přidat input pro počet zobrazených manažerů do manager-count-container
     const managerCountContainer = document.getElementById('manager-count-container');
-    managerCountContainer.innerHTML = `<label for="manager-count"> </label><input type="range" id="manager-count" min="1" max="${table.length}" value="${Math.min(10, table.length)}" style="width:160px; margin-bottom:8px;"><span id="manager-count-value" style="margin-left:8px; font-weight:bold;">${Math.min(10, table.length)}</span>`;
+    managerCountContainer.innerHTML = `
+        <input type="range" id="manager-range-start" min="1" max="${table.length}" value="1" style="width:120px; margin-bottom:8px;">
+        <input type="range" id="manager-range-end" min="1" max="${table.length}" value="${Math.min(10, table.length)}" style="width:120px; margin-bottom:8px; margin-left:16px;">
+    `;
     let html = `<table class="custom-league-table"><thead><tr>
         <th>Pořadí</th>
         <th>Tým</th>
@@ -129,10 +140,11 @@ function renderTable(table) {
         <th>Transf. (body)</th>
     </tr></thead><tbody>`;
     // Výchozí počet zobrazených manažerů
-    let managerCount = Math.min(10, table.length);
-    function renderRows(count) {
+    let rangeStart = 1;
+    let rangeEnd = Math.min(10, table.length);
+    function renderRows(start, end) {
         let rows = '';
-        for (let i = 0; i < Math.min(count, table.length); i++) {
+        for (let i = start - 1; i < end && i < table.length; i++) {
             const row = table[i];
             let posun = row['Rank Movement'] || 0;
             let posunStr = '';
@@ -164,22 +176,31 @@ function renderTable(table) {
         }
         return rows;
     }
-    html += renderRows(managerCount);
+    html += renderRows(rangeStart, rangeEnd);
     html += '</tbody></table>';
     div.innerHTML = html;
-    // Event listener pro input
-    const input = document.getElementById('manager-count');
-    const valueSpan = document.getElementById('manager-count-value');
-    input.addEventListener('input', function() {
-        let val = parseInt(this.value, 10);
-        if (isNaN(val) || val < 1) val = 1;
-        if (val > table.length) val = table.length;
-        this.value = val;
-        valueSpan.textContent = val;
+    // Event listenery pro oba slidery
+    const startInput = document.getElementById('manager-range-start');
+    const endInput = document.getElementById('manager-range-end');
+    function updateTable() {
+        rangeStart = parseInt(startInput.value, 10);
+        rangeEnd = parseInt(endInput.value, 10);
+        // Zajistit, že start <= end
+        if (rangeStart > rangeEnd) {
+            if (this === startInput) {
+                rangeEnd = rangeStart;
+                endInput.value = rangeEnd;
+            } else {
+                rangeStart = rangeEnd;
+                startInput.value = rangeStart;
+            }
+        }
         // Přegeneruj řádky tabulky
         const tbody = div.querySelector('tbody');
-        tbody.innerHTML = renderRows(val);
-    });
+        tbody.innerHTML = renderRows(rangeStart, rangeEnd);
+    }
+    startInput.addEventListener('input', updateTable);
+    endInput.addEventListener('input', updateTable);
 }
 
 function renderEO(eo) {

@@ -1,3 +1,27 @@
+/* Error message for non-existent GW */
+.error-message {
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 2em;
+    margin: 2em auto;
+    background: none;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+#eo > table {
+    display: block ;
+    max-width: 300px;
+}
+#league-table {
+    display: block;
+}
+.award-box.award-down_the_toilet .award-header {
+    color: #111 !important;
+}
+.award-box.award-drevak .award-header {
+    color: #fff !important;
+}
 .sticky-header {
     position: sticky;
     top: 0;
@@ -47,7 +71,12 @@
     font-size: 0.7em !important;
     vertical-align: middle;
 }
-.award-drevak { background: #a9743a; color: #fff; }
+.award-drevak {
+    background:
+        linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.45) 100%),
+        #a9743a;
+    color: #fff;
+}
 /* Barvy popisu u oceneni drevak */
 .award-box.award-drevak .award-desc {color: #fff;}
 .award-box.award-drevak .award-manager {color: #fff;}
@@ -302,7 +331,13 @@ h2, #league-title, #awards-title {
 }
 /* Barvy podle typu ocenění */
 .award-king { background: #ffdd02; }
-.award-most_goals { background: #3b5bdb; color: #fff; }
+.award-most_goals {
+    background:
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.35) 0px, rgba(255,255,255,0.35) 2px, transparent 2px, transparent 20px),
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.35) 0px, rgba(255,255,255,0.35) 2px, transparent 2px, transparent 20px),
+        linear-gradient(180deg, #3bbd3b 0%, #1e7c1e 100%);
+    color: #fff;
+}
 .award-rocketeer {
     background: #18203b;
     color: #fff;
@@ -319,18 +354,39 @@ h2, #league-title, #awards-title {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.award-down_the_toilet { background: #674b35; color: #fff; }
+.award-down_the_toilet {
+    background: linear-gradient(180deg, #6cd2ecf2 0%, #e0f7fa 100%);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+}
 .award-smooth_brain { background: #ffe0e6; }
 .award-bench { background: #38f3d7; }
 .award-default { background: #e9ecef; }
-.award-karbanik { background: #0a7b2e; color: #fff;}
+.award-karbanik {
+    background: #0a7b2e;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.award-karbanik::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    border-radius: inherit;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 60%, rgba(0,0,0,0.7) 100%);
+    z-index: 2;
+}
 /* Barvy popisu u oceneni */
 .award-box.award-karbanik .award-desc {color: #fff;}
 .award-box.award-karbanik .award-manager {color: #fff;}
 .award-box.award-most_goals .award-desc {color: #fff;}
 .award-box.award-most_goals .award-manager {color: #fff;}
-.award-box.award-down_the_toilet .award-desc {color: #fff;}
-.award-box.award-down_the_toilet .award-manager {color: #fff;}
+.award-box.award-down_the_toilet .award-desc {color: #000000;}
+.award-box.award-down_the_toilet .award-manager {color: #000000;}
 .award-box.award-cock .award-desc {color: #fff;}
 .award-box.award-cock .award-manager {color: #fff;}
 .award-box.award-rocketeer .award-desc {color: #fff;}
