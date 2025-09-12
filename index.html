@@ -9,6 +9,11 @@
 </head>
 <body>
     <header class="sticky-header">
+        <div class="header-left">
+    <button id="info-btn" class="info-btn" aria-label="Pravidla trofejí">
+        <span class="info-icon">ℹ️</span>
+    </button>
+</div>
         <h1>Týdenní report</h1>
         <div style="margin: 4px 0;">
             <label for="gw-selector" style="font-weight: bold; margin-right: 8px;">Gameweek:</label>
@@ -16,6 +21,51 @@
         </div>
         <div id="gw-selector" style="margin-top:1em;"></div>
     </header>
+    <div id="info-modal" class="info-modal" style="display:none;">
+    <div class="info-modal-content">
+        <button id="close-info" class="close-info" aria-label="Zavřít">×</button>
+        <h2>Pravidla trofejí</h2>
+        <div class="info-rules-text" style="text-align:left; white-space:pre-line;">
+KING 👑
+Podmínka: Manažer s nejvyšším počtem bodů v daném GW.
+Pravidla: Pokud mají dva nebo více manažerů stejný nejvyšší počet bodů, získají ocenění všichni.
+
+DŘEVÁK 🥾
+Podmínka: Manažer s nejnižším počtem bodů v daném GW.
+Pravidla: Pokud mají dva nebo více manažerů stejný nejnižší počet bodů, získají ocenění všichni.
+
+RAKEŤÁK 🚀
+Podmínka: Manažer s největším pozitivním posunem v pořadí mini-ligy oproti předchozímu GW.
+Pravidla: Pokud mají stejný posun, získají ocenění všichni.
+
+PADÁK 🪂
+Podmínka: Manažer s největším negativním posunem v pořadí mini-ligy oproti předchozímu GW.
+Pravidla: Pokud mají stejný propad, získají ocenění všichni.
+
+STŘELEC ⚽️
+Podmínka: Manažer s nejvyšším počtem gólů od hráčů v základní sestavě v daném GW.
+Pravidla: Pokud mají stejný počet gólů, získají ocenění všichni.
+
+LAVIČKA 🪑
+Podmínka: Manažer s nejvyšším počtem bodů na lavičce v daném GW.
+Pravidla: Pokud mají stejný počet bodů na lavičce, získají ocenění všichni.
+
+KARBANÍK 🃏
+Podmínka: Manažer s nejvyšším počtem karet (červená se počítá jako 2 žluté) od hráčů v základní sestavě v daném GW.
+Pravidla: Pokud mají stejný počet karet, získají ocenění všichni. Ocenění se neuděluje, pokud nikdo nezískal žádnou kartu.
+
+VĚŠTEC 🔮
+Podmínka: Manažer s nejvyšším čistým ziskem bodů z transferů (*net_gain > 5) v daném GW.
+Pravidla: Ocenění získá pouze manažer, jehož net_gain z transferů je vyšší než 5. Pokud mají stejný nejvyšší net_gain > 5, získají ocenění všichni. Pokud nikdo nemá net_gain > 5, ocenění se neuděluje.
+
+KLAUN 🤡
+Podmínka: Manažer s nejnižším (nejvíce záporným) čistým ziskem bodů z transferů (net_gain < 0) v daném GW.
+Pravidla: Ocenění získá pouze manažer, jehož net_gain z transferů je záporný. Pokud mají stejný nejnižší net_gain < 0, získají ocenění všichni. Pokud nikdo nemá záporný net_gain, ocenění se neuděluje.
+
+*net_gain = Rozdíl bodů hráčů, kteří byli do týmu přivedeni (nově příchozí), mínus body hráčů, kteří tým opustili (prodáni) v daném GW. Od tohoto rozdílu se ještě odečte bodová penalizace za provedené transfery (transfer cost).
+        </div>
+    </div>
+</div>
     <main>
         <section id="awards-section">
             <h2 id="awards-title"></h2>
@@ -37,7 +87,7 @@
         </section>
     </main>
     <footer>
-        <p></p>
+        <p>Made by Jaromír Kaláb & AI, inspired by Max Winokan</p>
     </footer>
     <script src="report.js"></script>
 </main>

@@ -70,13 +70,25 @@ function renderAwards(awards) {
     down_the_toilet: { icon: '🪂', header: 'PADÁK', desc: 'Největší propad', color: 'award-down_the_toilet', value: a => `${a.rank_movement} míst` },
         smooth_brain: { icon: '🪑', header: 'LAVIČKA', desc: 'Nejvíc bodů na lavičce', color: 'award-bench', value: a => `${a.bench_points} pts` },
         karbanik: { icon: '🃏', header: 'KARBANÍK', desc: 'Nejvíc karet v GW', color: 'award-karbanik', value: a => '' },
+    vestec: { icon: '🔮', header: 'VĚŠTEC', desc: 'Nejlepší transféry', color: 'award-vestec', value: a => `${a.net_gain > 0 ? '+' : ''}${a.net_gain} bodů` },
+    klaun: { icon: '🤡', header: 'KLAUN', desc: 'Nejhorší transféry', color: 'award-klaun', value: a => `${a.net_gain} bodů` },
     };
-    awards.forEach(a => {
-        const m = meta[a.type] || { icon: '', header: a.type, desc: '', color: 'award-default', value: () => '' };
-        const box = document.createElement('div');
-        box.className = `award-box ${m.color}`;
-        let managers = '';
-        let valueHtml = m.value(a);
+    // Seřadit awards podle požadovaného pořadí
+    const order = ['king', 'drevak'];
+    const endOrder = ['vestec', 'klaun'];
+    const sortedAwards = [
+        ...awards.filter(a => order.includes(a.type)),
+        ...awards.filter(a => !order.includes(a.type) && !endOrder.includes(a.type)),
+        ...awards.filter(a => endOrder.includes(a.type))
+    ];
+    sortedAwards.forEach(a => {
+    // Nezobrazuj award VĚŠTEC a KLAUN pokud je net_gain = 0
+    if ((a.type === 'vestec' || a.type === 'klaun') && (!a.net_gain || a.net_gain === 0)) return;
+    const m = meta[a.type] || { icon: '', header: a.type, desc: '', color: 'award-default', value: () => '' };
+    const box = document.createElement('div');
+    box.className = `award-box ${m.color}`;
+    let managers = '';
+    let valueHtml = m.value(a);
     if (a.type === 'karbanik' && Array.isArray(a.manager_names) && Array.isArray(a.yellow) && Array.isArray(a.red)) {
             if (a.manager_names.length === 1) {
                 // Pokud je jen jeden vítěz, emoji karet nahoru
@@ -272,6 +284,21 @@ function renderEO(eo) {
 
 // Načti report po načtení stránky
 window.addEventListener('DOMContentLoaded', () => {
+    // Info modal logic
+    const infoBtn = document.getElementById('info-btn');
+    const infoModal = document.getElementById('info-modal');
+    const closeInfo = document.getElementById('close-info');
+    if (infoBtn && infoModal && closeInfo) {
+        infoBtn.addEventListener('click', () => {
+            infoModal.style.display = 'flex';
+        });
+        closeInfo.addEventListener('click', () => {
+            infoModal.style.display = 'none';
+        });
+        infoModal.addEventListener('click', (e) => {
+            if (e.target === infoModal) infoModal.style.display = 'none';
+        });
+    }
     // Find available GW files (assume GW1-38, or you can scan directory in Python and output available GWs)
     const maxGW = 38;
     const selector = document.getElementById('gw-selector');

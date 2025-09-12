@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-10T13:04:18.687774",
+  "generated_at": "2025-09-12T11:26:52.432198",
   "gameweek": 3,
   "managers": [
     {
@@ -890,6 +890,20 @@
     }
   ],
   "awards": [
+    {
+      "type": "vestec",
+      "manager_names": [
+        "Bea"
+      ],
+      "net_gain": 8
+    },
+    {
+      "type": "klaun",
+      "manager_names": [
+        "FC Totoro MEI"
+      ],
+      "net_gain": -20
+    },
     {
       "type": "king",
       "manager_names": [

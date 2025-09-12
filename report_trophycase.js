@@ -24,9 +24,11 @@ function renderTrophycase(data) {
         { type: 'rocketeer', label: '🚀', name: 'RAKEŤÁK' },
         { type: 'drevak', label: '🥾', name: 'DŘEVÁK' },
         { type: 'most_goals', label: '⚽️', name: 'STŘELEC' },
-    { type: 'down_the_toilet', label: '🪂', name: 'PADÁK' },
+        { type: 'down_the_toilet', label: '🪂', name: 'PADÁK' },
         { type: 'smooth_brain', label: '🪑', name: 'LAVIČKA' },
         { type: 'karbanik', label: '🃏', name: 'KARBANÍK' },
+        { type: 'vestec', label: '🔮', name: 'VĚŠTEC' },
+        { type: 'klaun', label: '🤡', name: 'KLAUN' },
     ];
     // Manažeři abecedně
         const managers = Object.keys(data).sort((a,b)=>a.localeCompare(b,'cs'));

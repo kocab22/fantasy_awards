@@ -1,3 +1,76 @@
+/* Info icon button styles */
+.info-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 8px;
+}
+.info-icon {
+    font-size: 2em;
+    color: #222;
+}
+.header-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 101;
+}
+.info-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.45);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-modal-content {
+    background: #fff;
+    padding: 32px 24px 24px 24px;
+    max-width: 480px;
+    width: 90vw;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    position: relative;
+    max-height: calc(85vh);
+    overflow-y: auto;
+}
+.close-info {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #222;
+    cursor: pointer;
+}
+.info-rules-text {
+    font-size: 1.08em;
+    line-height: 1.6;
+    margin-top: 18px;
+    color: #222;
+}
+/* VĚŠTEC (best transfers) */
+.award-vestec {
+    background: linear-gradient(135deg, #e0e7ff 0%, #b4f8c8 100%);
+    color: #222;
+}
+/* KLAUN (worst transfers) */
+.award-klaun {
+    background:#ff69ad;
+    color: #222;
+}
 /* Error message for non-existent GW */
 .error-message {
     text-align: center;
@@ -109,16 +182,18 @@
     border-bottom: 1px solid #e0e0e0;
 }
 .trophycase-table th {
-    background: #f7f7fa;
+    background: #fff;
     color: #222;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-.trophycase-table tr:last-child td {
-    border-bottom: none;
-}
-.trophycase-table tr:hover {
-    background: #f0f4ff;
+    border-radius: 10px;
+    padding: 32px 24px 24px 24px;
+    max-width: 480px;
+    width: 480px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    position: relative;
+    margin-top: 60px;
+    margin-left: 60px;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 .trophycase-manager {
     font-weight: bold;
@@ -241,12 +316,20 @@ body {
     margin: 0;
     padding: 0;
 }
-header, footer {
+header {
     background:linear-gradient(90deg,#05f0ff, #953bff);
     color: #fff;
     padding: 1px 1px;
     text-align: center;
 }
+footer {
+    background:linear-gradient(90deg,#05f0ff, #953bff);
+    color: #fff;
+    font-size: smaller;
+    padding: 1px 1px;
+    text-align: center;
+}
+
 main {
     
     margin: 0em auto;
@@ -361,7 +444,6 @@ h2, #league-title, #awards-title {
     overflow: hidden;
 }
 
-}
 .award-smooth_brain { background: #ffe0e6; }
 .award-bench { background: #38f3d7; }
 .award-default { background: #e9ecef; }
