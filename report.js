@@ -299,23 +299,44 @@ window.addEventListener('DOMContentLoaded', () => {
             if (e.target === infoModal) infoModal.style.display = 'none';
         });
     }
-    // Find available GW files (assume GW1-38, or you can scan directory in Python and output available GWs)
-    const maxGW = 38;
+    // Dynamicky detekuj nejvyšší dostupné GW podle league_analysis_gwX.json souborů
     const selector = document.getElementById('gw-selector');
     if (selector) {
-        // Populate selector with GW options
+        // Zjisti dostupné GW soubory (zkus fetch na GW1-38, vezmi ty, které existují)
+        const maxGW = 38;
+        let availableGWs = [];
+        let fetchPromises = [];
         for (let gw = 1; gw <= maxGW; gw++) {
-            const opt = document.createElement('option');
-            opt.value = gw;
-            opt.textContent = `GW${gw}`;
-            selector.appendChild(opt);
+            fetchPromises.push(
+                fetch(`league_analysis_gw${gw}.json`, { method: 'HEAD' })
+                    .then(resp => { if (resp.ok) availableGWs.push(gw); })
+                    .catch(() => {})
+            );
         }
-        // Default to GW3 (or latest available)
-        selector.value = 3;
-        selector.addEventListener('change', () => {
-            loadReport(Number(selector.value));
+        Promise.all(fetchPromises).then(() => {
+            if (availableGWs.length === 0) {
+                // Pokud nejsou žádná data, fallback na GW3
+                selector.innerHTML = `<option value="3">GW3</option>`;
+                selector.value = 3;
+                loadReport(3);
+                return;
+            }
+            // Naplň selector pouze dostupnými GW
+            selector.innerHTML = '';
+            availableGWs.forEach(gw => {
+                const opt = document.createElement('option');
+                opt.value = gw;
+                opt.textContent = `GW${gw}`;
+                selector.appendChild(opt);
+            });
+            // Nastav default na nejvyšší dostupné GW
+            const latestGW = Math.max(...availableGWs);
+            selector.value = latestGW;
+            selector.addEventListener('change', () => {
+                loadReport(Number(selector.value));
+            });
+            loadReport(latestGW);
         });
-        loadReport(Number(selector.value));
     } else {
         // Fallback: just load GW3
         loadReport(3);

@@ -26,6 +26,9 @@
     ],
     "karbanik": [
       3
+    ],
+    "rocketeer": [
+      4
     ]
   },
   "TS9": {
@@ -52,16 +55,28 @@
     ],
     "rocketeer": [
       2
+    ],
+    "drevak": [
+      4
     ]
   },
   "FC Zlín": {
     "drevak": [
       2
+    ],
+    "king": [
+      4
+    ],
+    "most_goals": [
+      4
     ]
   },
   "špuntovky": {
     "most_goals": [
       2
+    ],
+    "vestec": [
+      4
     ]
   },
   "RAM": {
@@ -76,7 +91,8 @@
   },
   "⚽Bright Future⚽": {
     "down_the_toilet": [
-      2
+      2,
+      4
     ],
     "karbanik": [
       3
@@ -98,6 +114,9 @@
     ],
     "most_goals": [
       3
+    ],
+    "karbanik": [
+      4
     ]
   },
   "Larrychester Kngntd": {
@@ -108,6 +127,9 @@
   "Jenda KTBFFH": {
     "karbanik": [
       3
+    ],
+    "smooth_brain": [
+      4
     ]
   },
   "Roman 11": {
@@ -118,6 +140,14 @@
   "TJ Sokol Mysločovice": {
     "down_the_toilet": [
       3
+    ]
+  },
+  "KVETOS FC": {
+    "klaun": [
+      4
+    ],
+    "most_goals": [
+      4
     ]
   }
 }
