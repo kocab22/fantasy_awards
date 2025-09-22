@@ -2,6 +2,9 @@
   "Taiateam": {
     "king": [
       1
+    ],
+    "most_goals": [
+      5
     ]
   },
   "K.V.B": {
@@ -47,6 +50,9 @@
     ],
     "drevak": [
       3
+    ],
+    "vestec": [
+      5
     ]
   },
   "FC Chánov": {
@@ -68,7 +74,8 @@
       4
     ],
     "most_goals": [
-      4
+      4,
+      5
     ]
   },
   "špuntovky": {
@@ -96,6 +103,9 @@
     ],
     "karbanik": [
       3
+    ],
+    "most_goals": [
+      5
     ]
   },
   "Bea": {
@@ -126,7 +136,8 @@
   },
   "Jenda KTBFFH": {
     "karbanik": [
-      3
+      3,
+      5
     ],
     "smooth_brain": [
       4
@@ -140,6 +151,9 @@
   "TJ Sokol Mysločovice": {
     "down_the_toilet": [
       3
+    ],
+    "smooth_brain": [
+      5
     ]
   },
   "KVETOS FC": {
@@ -148,6 +162,33 @@
     ],
     "most_goals": [
       4
+    ],
+    "rocketeer": [
+      5
+    ]
+  },
+  "Hadgim87": {
+    "klaun": [
+      5
+    ],
+    "drevak": [
+      5
+    ],
+    "down_the_toilet": [
+      5
+    ]
+  },
+  "GRAFICI No.1": {
+    "king": [
+      5
+    ],
+    "most_goals": [
+      5
+    ]
+  },
+  "tomastep": {
+    "most_goals": [
+      5
     ]
   }
 }
