@@ -37,11 +37,17 @@
   "TS9": {
     "karbanik": [
       1
+    ],
+    "smooth_brain": [
+      6
     ]
   },
   "Lokomotiva Prales": {
     "karbanik": [
       1
+    ],
+    "klaun": [
+      6
     ]
   },
   "Sen Jirky Luňáka": {
@@ -63,7 +69,14 @@
       2
     ],
     "drevak": [
-      4
+      4,
+      6
+    ],
+    "karbanik": [
+      6
+    ],
+    "down_the_toilet": [
+      6
     ]
   },
   "FC Zlín": {
@@ -106,6 +119,9 @@
     ],
     "most_goals": [
       5
+    ],
+    "vestec": [
+      6
     ]
   },
   "Bea": {
@@ -116,6 +132,9 @@
   "FC Totoro MEI": {
     "klaun": [
       3
+    ],
+    "most_goals": [
+      6
     ]
   },
   "Sk Mistřín": {
@@ -123,7 +142,8 @@
       3
     ],
     "most_goals": [
-      3
+      3,
+      6
     ],
     "karbanik": [
       4
@@ -165,6 +185,9 @@
     ],
     "rocketeer": [
       5
+    ],
+    "king": [
+      6
     ]
   },
   "Hadgim87": {
@@ -184,6 +207,9 @@
     ],
     "most_goals": [
       5
+    ],
+    "rocketeer": [
+      6
     ]
   },
   "tomastep": {
