@@ -40,6 +40,9 @@
     ],
     "smooth_brain": [
       6
+    ],
+    "rocketeer": [
+      7
     ]
   },
   "Lokomotiva Prales": {
@@ -48,11 +51,15 @@
     ],
     "klaun": [
       6
+    ],
+    "drevak": [
+      7
     ]
   },
   "Sen Jirky Luňáka": {
     "klaun": [
-      2
+      2,
+      7
     ],
     "drevak": [
       3
@@ -77,6 +84,9 @@
     ],
     "down_the_toilet": [
       6
+    ],
+    "smooth_brain": [
+      7
     ]
   },
   "FC Zlín": {
@@ -96,12 +106,16 @@
       2
     ],
     "vestec": [
-      4
+      4,
+      7
     ]
   },
   "RAM": {
     "smooth_brain": [
       2
+    ],
+    "karbanik": [
+      7
     ]
   },
   "SK Rusava": {
@@ -122,6 +136,9 @@
     ],
     "vestec": [
       6
+    ],
+    "rocketeer": [
+      7
     ]
   },
   "Bea": {
@@ -139,11 +156,13 @@
   },
   "Sk Mistřín": {
     "king": [
-      3
+      3,
+      7
     ],
     "most_goals": [
       3,
-      6
+      6,
+      7
     ],
     "karbanik": [
       4
@@ -157,15 +176,22 @@
   "Jenda KTBFFH": {
     "karbanik": [
       3,
-      5
+      5,
+      7
     ],
     "smooth_brain": [
       4
+    ],
+    "most_goals": [
+      7
     ]
   },
   "Roman 11": {
     "rocketeer": [
       3
+    ],
+    "down_the_toilet": [
+      7
     ]
   },
   "TJ Sokol Mysločovice": {
