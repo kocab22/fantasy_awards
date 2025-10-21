@@ -5,6 +5,12 @@
     ],
     "most_goals": [
       5
+    ],
+    "klaun": [
+      8
+    ],
+    "smooth_brain": [
+      8
     ]
   },
   "K.V.B": {
@@ -36,7 +42,8 @@
   },
   "TS9": {
     "karbanik": [
-      1
+      1,
+      8
     ],
     "smooth_brain": [
       6
@@ -98,7 +105,8 @@
     ],
     "most_goals": [
       4,
-      5
+      5,
+      8
     ]
   },
   "špuntovky": {
@@ -108,6 +116,9 @@
     "vestec": [
       4,
       7
+    ],
+    "down_the_toilet": [
+      8
     ]
   },
   "RAM": {
@@ -144,6 +155,9 @@
   "Bea": {
     "vestec": [
       3
+    ],
+    "most_goals": [
+      8
     ]
   },
   "FC Totoro MEI": {
@@ -152,6 +166,9 @@
     ],
     "most_goals": [
       6
+    ],
+    "rocketeer": [
+      8
     ]
   },
   "Sk Mistřín": {
@@ -177,7 +194,8 @@
     "karbanik": [
       3,
       5,
-      7
+      7,
+      8
     ],
     "smooth_brain": [
       4
@@ -192,6 +210,9 @@
     ],
     "down_the_toilet": [
       7
+    ],
+    "drevak": [
+      8
     ]
   },
   "TJ Sokol Mysločovice": {
@@ -200,6 +221,9 @@
     ],
     "smooth_brain": [
       5
+    ],
+    "karbanik": [
+      8
     ]
   },
   "KVETOS FC": {
@@ -207,13 +231,15 @@
       4
     ],
     "most_goals": [
-      4
+      4,
+      8
     ],
     "rocketeer": [
       5
     ],
     "king": [
-      6
+      6,
+      8
     ]
   },
   "Hadgim87": {
@@ -241,6 +267,16 @@
   "tomastep": {
     "most_goals": [
       5
+    ]
+  },
+  "spajk": {
+    "vestec": [
+      8
+    ]
+  },
+  "Rabbits FC": {
+    "karbanik": [
+      8
     ]
   }
 }
