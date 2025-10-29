@@ -15,7 +15,8 @@
   },
   "K.V.B": {
     "drevak": [
-      1
+      1,
+      9
     ]
   },
   "VALD�VALD": {
@@ -27,6 +28,9 @@
     ],
     "down_the_toilet": [
       2
+    ],
+    "klaun": [
+      9
     ]
   },
   "ZapleTeam": {
@@ -61,6 +65,9 @@
     ],
     "drevak": [
       7
+    ],
+    "most_goals": [
+      9
     ]
   },
   "Sen Jirky Luňáka": {
@@ -101,12 +108,16 @@
       2
     ],
     "king": [
-      4
+      4,
+      9
     ],
     "most_goals": [
       4,
       5,
       8
+    ],
+    "rocketeer": [
+      9
     ]
   },
   "špuntovky": {
@@ -131,7 +142,11 @@
   },
   "SK Rusava": {
     "karbanik": [
-      2
+      2,
+      9
+    ],
+    "rocketeer": [
+      9
     ]
   },
   "⚽Bright Future⚽": {
@@ -154,10 +169,14 @@
   },
   "Bea": {
     "vestec": [
-      3
+      3,
+      9
     ],
     "most_goals": [
       8
+    ],
+    "rocketeer": [
+      9
     ]
   },
   "FC Totoro MEI": {
@@ -168,7 +187,8 @@
       6
     ],
     "rocketeer": [
-      8
+      8,
+      9
     ]
   },
   "Sk Mistřín": {
@@ -198,10 +218,14 @@
       8
     ],
     "smooth_brain": [
-      4
+      4,
+      9
     ],
     "most_goals": [
       7
+    ],
+    "down_the_toilet": [
+      9
     ]
   },
   "Roman 11": {
@@ -224,6 +248,9 @@
     ],
     "karbanik": [
       8
+    ],
+    "rocketeer": [
+      9
     ]
   },
   "KVETOS FC": {
@@ -251,6 +278,9 @@
     ],
     "down_the_toilet": [
       5
+    ],
+    "karbanik": [
+      9
     ]
   },
   "GRAFICI No.1": {
