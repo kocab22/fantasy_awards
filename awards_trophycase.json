@@ -38,6 +38,7 @@
       1
     ],
     "karbanik": [
+      10,
       3
     ],
     "rocketeer": [
@@ -70,20 +71,35 @@
       9
     ]
   },
-  "Sen Jirky Luňáka": {
-    "klaun": [
-      2,
-      7
+  "FC Totoro MEI": {
+    "vestec": [
+      10
     ],
-    "drevak": [
+    "klaun": [
       3
     ],
-    "vestec": [
-      5
+    "most_goals": [
+      6
+    ],
+    "rocketeer": [
+      8,
+      9
+    ]
+  },
+  "RAM": {
+    "klaun": [
+      10
+    ],
+    "smooth_brain": [
+      2
+    ],
+    "karbanik": [
+      7
     ]
   },
   "FC Chánov": {
     "king": [
+      10,
       2
     ],
     "rocketeer": [
@@ -103,7 +119,43 @@
       7
     ]
   },
+  "tomastep": {
+    "drevak": [
+      10
+    ],
+    "most_goals": [
+      5
+    ]
+  },
+  "spajk": {
+    "most_goals": [
+      10
+    ],
+    "vestec": [
+      8
+    ]
+  },
+  "Sk Mistřín": {
+    "smooth_brain": [
+      10
+    ],
+    "king": [
+      3,
+      7
+    ],
+    "most_goals": [
+      3,
+      6,
+      7
+    ],
+    "karbanik": [
+      4
+    ]
+  },
   "FC Zlín": {
+    "karbanik": [
+      10
+    ],
     "drevak": [
       2
     ],
@@ -120,6 +172,49 @@
       9
     ]
   },
+  "Roman 11": {
+    "rocketeer": [
+      10,
+      3
+    ],
+    "down_the_toilet": [
+      7
+    ],
+    "drevak": [
+      8
+    ]
+  },
+  "Jenda KTBFFH": {
+    "down_the_toilet": [
+      10,
+      9
+    ],
+    "karbanik": [
+      3,
+      5,
+      7,
+      8
+    ],
+    "smooth_brain": [
+      4,
+      9
+    ],
+    "most_goals": [
+      7
+    ]
+  },
+  "Sen Jirky Luňáka": {
+    "klaun": [
+      2,
+      7
+    ],
+    "drevak": [
+      3
+    ],
+    "vestec": [
+      5
+    ]
+  },
   "špuntovky": {
     "most_goals": [
       2
@@ -130,14 +225,6 @@
     ],
     "down_the_toilet": [
       8
-    ]
-  },
-  "RAM": {
-    "smooth_brain": [
-      2
-    ],
-    "karbanik": [
-      7
     ]
   },
   "SK Rusava": {
@@ -179,64 +266,9 @@
       9
     ]
   },
-  "FC Totoro MEI": {
-    "klaun": [
-      3
-    ],
-    "most_goals": [
-      6
-    ],
-    "rocketeer": [
-      8,
-      9
-    ]
-  },
-  "Sk Mistřín": {
-    "king": [
-      3,
-      7
-    ],
-    "most_goals": [
-      3,
-      6,
-      7
-    ],
-    "karbanik": [
-      4
-    ]
-  },
   "Larrychester Kngntd": {
     "smooth_brain": [
       3
-    ]
-  },
-  "Jenda KTBFFH": {
-    "karbanik": [
-      3,
-      5,
-      7,
-      8
-    ],
-    "smooth_brain": [
-      4,
-      9
-    ],
-    "most_goals": [
-      7
-    ],
-    "down_the_toilet": [
-      9
-    ]
-  },
-  "Roman 11": {
-    "rocketeer": [
-      3
-    ],
-    "down_the_toilet": [
-      7
-    ],
-    "drevak": [
-      8
     ]
   },
   "TJ Sokol Mysločovice": {
@@ -292,16 +324,6 @@
     ],
     "rocketeer": [
       6
-    ]
-  },
-  "tomastep": {
-    "most_goals": [
-      5
-    ]
-  },
-  "spajk": {
-    "vestec": [
-      8
     ]
   },
   "Rabbits FC": {
