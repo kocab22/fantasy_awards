@@ -75,6 +75,9 @@
     "vestec": [
       10
     ],
+    "karbanik": [
+      12
+    ],
     "klaun": [
       3
     ],
@@ -89,6 +92,9 @@
   "RAM": {
     "klaun": [
       10
+    ],
+    "down_the_toilet": [
+      12
     ],
     "smooth_brain": [
       2
@@ -122,6 +128,9 @@
   "tomastep": {
     "drevak": [
       10
+    ],
+    "king": [
+      12
     ],
     "most_goals": [
       5
@@ -177,11 +186,16 @@
       10,
       3
     ],
-    "down_the_toilet": [
-      7
-    ],
     "drevak": [
+      12,
       8
+    ],
+    "smooth_brain": [
+      12
+    ],
+    "down_the_toilet": [
+      12,
+      7
     ]
   },
   "Jenda KTBFFH": {
@@ -204,15 +218,40 @@
     ]
   },
   "Sen Jirky Luňáka": {
+    "vestec": [
+      12,
+      5
+    ],
+    "rocketeer": [
+      12
+    ],
     "klaun": [
       2,
       7
     ],
     "drevak": [
       3
+    ]
+  },
+  "Rabbits FC": {
+    "klaun": [
+      12
+    ],
+    "karbanik": [
+      8
+    ]
+  },
+  "Bea": {
+    "most_goals": [
+      12,
+      8
     ],
     "vestec": [
-      5
+      3,
+      9
+    ],
+    "rocketeer": [
+      9
     ]
   },
   "špuntovky": {
@@ -252,18 +291,6 @@
     ],
     "rocketeer": [
       7
-    ]
-  },
-  "Bea": {
-    "vestec": [
-      3,
-      9
-    ],
-    "most_goals": [
-      8
-    ],
-    "rocketeer": [
-      9
     ]
   },
   "Larrychester Kngntd": {
@@ -324,11 +351,6 @@
     ],
     "rocketeer": [
       6
-    ]
-  },
-  "Rabbits FC": {
-    "karbanik": [
-      8
     ]
   }
 }
