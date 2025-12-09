@@ -67,6 +67,9 @@
     "karbanik": [
       1
     ],
+    "rocketeer": [
+      14
+    ],
     "klaun": [
       6
     ],
@@ -112,6 +115,7 @@
   "FC Chánov": {
     "king": [
       10,
+      14,
       2
     ],
     "down_the_toilet": [
@@ -119,13 +123,14 @@
       15,
       6
     ],
+    "rocketeer": [
+      14,
+      2
+    ],
     "drevak": [
       15,
       4,
       6
-    ],
-    "rocketeer": [
-      2
     ],
     "karbanik": [
       6
@@ -136,7 +141,8 @@
   },
   "tomastep": {
     "drevak": [
-      10
+      10,
+      14
     ],
     "king": [
       12
@@ -203,7 +209,8 @@
       8
     ],
     "smooth_brain": [
-      12
+      12,
+      14
     ],
     "down_the_toilet": [
       12,
@@ -215,15 +222,20 @@
       10,
       9
     ],
+    "vestec": [
+      14
+    ],
+    "smooth_brain": [
+      14,
+      4,
+      9
+    ],
     "karbanik": [
+      14,
       3,
       5,
       7,
       8
-    ],
-    "smooth_brain": [
-      4,
-      9
     ],
     "most_goals": [
       7
@@ -290,6 +302,7 @@
       13
     ],
     "vestec": [
+      14,
       4,
       7
     ],
@@ -314,6 +327,9 @@
     ]
   },
   "⚽Bright Future⚽": {
+    "klaun": [
+      14
+    ],
     "vestec": [
       15,
       6
@@ -333,6 +349,29 @@
     "down_the_toilet": [
       2,
       4
+    ]
+  },
+  "FK Valča": {
+    "most_goals": [
+      14
+    ],
+    "drevak": [
+      15
+    ]
+  },
+  "TJ Sokol Mysločovice": {
+    "down_the_toilet": [
+      14,
+      3
+    ],
+    "smooth_brain": [
+      5
+    ],
+    "karbanik": [
+      8
+    ],
+    "rocketeer": [
+      9
     ]
   },
   "KVETOS FC": {
@@ -368,11 +407,6 @@
       9
     ]
   },
-  "FK Valča": {
-    "drevak": [
-      15
-    ]
-  },
   "Egypt": {
     "smooth_brain": [
       15
@@ -381,20 +415,6 @@
   "Larrychester Kngntd": {
     "smooth_brain": [
       3
-    ]
-  },
-  "TJ Sokol Mysločovice": {
-    "down_the_toilet": [
-      3
-    ],
-    "smooth_brain": [
-      5
-    ],
-    "karbanik": [
-      8
-    ],
-    "rocketeer": [
-      9
     ]
   },
   "GRAFICI No.1": {
