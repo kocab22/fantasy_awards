@@ -1,0 +1,1554 @@
+{
+  "generated_at": "2026-01-05T08:54:32.057419",
+  "gameweek": 18,
+  "managers": [
+    {
+      "manager_name": "FC Zlín",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 59,
+          "Rank": 1287964,
+          "Captain": "Rice",
+          "Captain Points": 15,
+          "Vice-Captain": "Haaland",
+          "Vice-Captain Points": 2,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 101.2,
+          "Points on Bench": 4,
+          "Bank Money": 0.3,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Rodon",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 11,
+          "Attacking Points": 46,
+          "Chip Used": "3xc",
+          "Performance vs Avg": 15.892857142857146,
+          "Rank Movement": 20093
+        }
+      ]
+    },
+    {
+      "manager_name": "⚽Bright Future⚽",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 49,
+          "Rank": 4260145,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Ekitiké",
+          "Vice-Captain Points": 0,
+          "Transfers": 3,
+          "Transfer Cost": 0,
+          "Team Value": 103.2,
+          "Points on Bench": 12,
+          "Bank Money": 0.6,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 7,
+          "Attacking Points": 37,
+          "Chip Used": null,
+          "Performance vs Avg": 5.892857142857146,
+          "Rank Movement": 6018
+        }
+      ]
+    },
+    {
+      "manager_name": "Sk Mistřín",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 43,
+          "Rank": 6898167,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Guéhi",
+          "Vice-Captain Points": 2,
+          "Transfers": 2,
+          "Transfer Cost": 0,
+          "Team Value": 103.1,
+          "Points on Bench": 8,
+          "Bank Money": 0.0,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Senesi",
+          "Underperformer Points": 1,
+          "Formation": "3-5-2",
+          "Defensive Points": 13,
+          "Attacking Points": 36,
+          "Chip Used": null,
+          "Performance vs Avg": -0.1071428571428541,
+          "Rank Movement": 48170
+        }
+      ]
+    },
+    {
+      "manager_name": "K.V.B",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 47,
+          "Rank": 4728297,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Pickford",
+          "Vice-Captain Points": 1,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 102.0,
+          "Points on Bench": 11,
+          "Bank Money": 0.7,
+          "Top Scorer": "Thiago",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 8,
+          "Attacking Points": 41,
+          "Chip Used": null,
+          "Performance vs Avg": 3.892857142857146,
+          "Rank Movement": 40456
+        }
+      ]
+    },
+    {
+      "manager_name": "Rabbits FC",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 45,
+          "Rank": 5612086,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Ekitiké",
+          "Vice-Captain Points": 0,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 103.1,
+          "Points on Bench": 19,
+          "Bank Money": 0.5,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "4-4-2",
+          "Defensive Points": 11,
+          "Attacking Points": 28,
+          "Chip Used": null,
+          "Performance vs Avg": 1.892857142857146,
+          "Rank Movement": 121763
+        }
+      ]
+    },
+    {
+      "manager_name": "KVETOS FC",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 48,
+          "Rank": 4308221,
+          "Captain": "Ekitiké",
+          "Captain Points": 10,
+          "Vice-Captain": "Haaland",
+          "Vice-Captain Points": 2,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 107.0,
+          "Points on Bench": 8,
+          "Bank Money": 0.2,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Keane",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 4,
+          "Attacking Points": 39,
+          "Chip Used": "freehit",
+          "Performance vs Avg": 4.892857142857146,
+          "Rank Movement": 9319
+        }
+      ]
+    },
+    {
+      "manager_name": "špuntovky",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 52,
+          "Rank": 2845955,
+          "Captain": "Ekitiké",
+          "Captain Points": 15,
+          "Vice-Captain": "Saka",
+          "Vice-Captain Points": 4,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 102.8,
+          "Points on Bench": 12,
+          "Bank Money": 2.6,
+          "Top Scorer": "Thiago",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 7,
+          "Attacking Points": 36,
+          "Chip Used": "3xc",
+          "Performance vs Avg": 8.892857142857146,
+          "Rank Movement": 75485
+        }
+      ]
+    },
+    {
+      "manager_name": "spajk",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 48,
+          "Rank": 4567779,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Rice",
+          "Vice-Captain Points": 17,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 103.2,
+          "Points on Bench": 18,
+          "Bank Money": 1.6,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Pickford",
+          "Underperformer Points": 1,
+          "Formation": "3-5-2",
+          "Defensive Points": 9,
+          "Attacking Points": 30,
+          "Chip Used": null,
+          "Performance vs Avg": 4.892857142857146,
+          "Rank Movement": 17312
+        }
+      ]
+    },
+    {
+      "manager_name": "FC Chánov",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 46,
+          "Rank": 5161965,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Thiago",
+          "Vice-Captain Points": 17,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 100.3,
+          "Points on Bench": 4,
+          "Bank Money": 0.4,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Cucurella",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 4,
+          "Attacking Points": 47,
+          "Chip Used": null,
+          "Performance vs Avg": 2.892857142857146,
+          "Rank Movement": 111195
+        }
+      ]
+    },
+    {
+      "manager_name": "FC Totoro MEI",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 44,
+          "Rank": 6363045,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Thiago",
+          "Vice-Captain Points": 17,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 103.4,
+          "Points on Bench": 14,
+          "Bank Money": 0.3,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Keane",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 8,
+          "Attacking Points": 53,
+          "Chip Used": null,
+          "Performance vs Avg": 0.8928571428571459,
+          "Rank Movement": 29697
+        }
+      ]
+    },
+    {
+      "manager_name": "TS9",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 69,
+          "Rank": 282913,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Ekitiké",
+          "Vice-Captain Points": 0,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 102.6,
+          "Points on Bench": 0,
+          "Bank Money": 0.2,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 6,
+          "Attacking Points": 46,
+          "Chip Used": "bboost",
+          "Performance vs Avg": 25.892857142857146,
+          "Rank Movement": 3115
+        }
+      ]
+    },
+    {
+      "manager_name": "Taiateam",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 35,
+          "Rank": 10228371,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Tonali",
+          "Vice-Captain Points": 3,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 101.2,
+          "Points on Bench": 18,
+          "Bank Money": 1.3,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Calafiori",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 8,
+          "Attacking Points": 32,
+          "Chip Used": null,
+          "Performance vs Avg": -8.107142857142854,
+          "Rank Movement": 34916
+        }
+      ]
+    },
+    {
+      "manager_name": "Sen Jirky Luňáka",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 38,
+          "Rank": 9089963,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Foden",
+          "Vice-Captain Points": 2,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 104.0,
+          "Points on Bench": 0,
+          "Bank Money": 0.2,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Gvardiol",
+          "Underperformer Points": 1,
+          "Formation": "3-5-2",
+          "Defensive Points": 7,
+          "Attacking Points": 61,
+          "Chip Used": "bboost",
+          "Performance vs Avg": -5.107142857142854,
+          "Rank Movement": 14425
+        }
+      ]
+    },
+    {
+      "manager_name": "Larrychester Kngntd",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 43,
+          "Rank": 6995110,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Semenyo",
+          "Vice-Captain Points": 1,
+          "Transfers": 5,
+          "Transfer Cost": 0,
+          "Team Value": 101.7,
+          "Points on Bench": 7,
+          "Bank Money": 1.1,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Semenyo",
+          "Underperformer Points": 1,
+          "Formation": "3-5-2",
+          "Defensive Points": 14,
+          "Attacking Points": 35,
+          "Chip Used": null,
+          "Performance vs Avg": -0.1071428571428541,
+          "Rank Movement": 3338
+        }
+      ]
+    },
+    {
+      "manager_name": "Jenda KTBFFH",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 46,
+          "Rank": 5441815,
+          "Captain": "Ekitiké",
+          "Captain Points": 10,
+          "Vice-Captain": "Haaland",
+          "Vice-Captain Points": 2,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 102.7,
+          "Points on Bench": 12,
+          "Bank Money": 1.2,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 8,
+          "Attacking Points": 47,
+          "Chip Used": null,
+          "Performance vs Avg": 2.892857142857146,
+          "Rank Movement": 35471
+        }
+      ]
+    },
+    {
+      "manager_name": "ZapleTeam",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 35,
+          "Rank": 9994103,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Enzo",
+          "Vice-Captain Points": 11,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 100.7,
+          "Points on Bench": 11,
+          "Bank Money": 1.0,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Caicedo",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 7,
+          "Attacking Points": 35,
+          "Chip Used": null,
+          "Performance vs Avg": -8.107142857142854,
+          "Rank Movement": 91545
+        }
+      ]
+    },
+    {
+      "manager_name": "RAM",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 56,
+          "Rank": 1905574,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Gvardiol",
+          "Vice-Captain Points": 1,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 101.3,
+          "Points on Bench": 12,
+          "Bank Money": 2.2,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Pickford",
+          "Underperformer Points": 1,
+          "Formation": "3-4-3",
+          "Defensive Points": 13,
+          "Attacking Points": 51,
+          "Chip Used": null,
+          "Performance vs Avg": 12.892857142857146,
+          "Rank Movement": 18667
+        }
+      ]
+    },
+    {
+      "manager_name": "GRAFICI No.1",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 38,
+          "Rank": 9089963,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Foden",
+          "Vice-Captain Points": 2,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 105.7,
+          "Points on Bench": 8,
+          "Bank Money": 0.5,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Burn",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 8,
+          "Attacking Points": 42,
+          "Chip Used": null,
+          "Performance vs Avg": -5.107142857142854,
+          "Rank Movement": 18579
+        }
+      ]
+    },
+    {
+      "manager_name": "SK Rusava",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 35,
+          "Rank": 9994103,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Foden",
+          "Vice-Captain Points": 2,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 101.7,
+          "Points on Bench": 13,
+          "Bank Money": 0.1,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Ekitiké",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 10,
+          "Attacking Points": 31,
+          "Chip Used": "wildcard",
+          "Performance vs Avg": -8.107142857142854,
+          "Rank Movement": 89593
+        }
+      ]
+    },
+    {
+      "manager_name": "Lokomotiva Prales",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 47,
+          "Rank": 4728297,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Pope",
+          "Vice-Captain Points": 0,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 100.4,
+          "Points on Bench": 0,
+          "Bank Money": 0.3,
+          "Top Scorer": "Van de Ven",
+          "Top Scorer Points": 7,
+          "Top Scorer Played": true,
+          "Underperformer": "Foster",
+          "Underperformer Points": 0,
+          "Formation": "4-3-3",
+          "Defensive Points": 13,
+          "Attacking Points": 15,
+          "Chip Used": null,
+          "Performance vs Avg": 3.892857142857146,
+          "Rank Movement": 117001
+        }
+      ]
+    },
+    {
+      "manager_name": "Roman 11",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 52,
+          "Rank": 2845955,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Foden",
+          "Vice-Captain Points": 2,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 100.0,
+          "Points on Bench": 11,
+          "Bank Money": 1.2,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Keane",
+          "Underperformer Points": 0,
+          "Formation": "3-5-2",
+          "Defensive Points": 7,
+          "Attacking Points": 30,
+          "Chip Used": null,
+          "Performance vs Avg": 8.892857142857146,
+          "Rank Movement": 37392
+        }
+      ]
+    },
+    {
+      "manager_name": "VALD�VALD",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 40,
+          "Rank": 7933242,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Bruno G.",
+          "Vice-Captain Points": 10,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 102.8,
+          "Points on Bench": 12,
+          "Bank Money": 0.3,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Semenyo",
+          "Underperformer Points": 1,
+          "Formation": "3-4-3",
+          "Defensive Points": 13,
+          "Attacking Points": 50,
+          "Chip Used": null,
+          "Performance vs Avg": -3.107142857142854,
+          "Rank Movement": 38244
+        }
+      ]
+    },
+    {
+      "manager_name": "Bea",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 27,
+          "Rank": 12001075,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Thiago",
+          "Vice-Captain Points": 17,
+          "Transfers": 2,
+          "Transfer Cost": 4,
+          "Team Value": 102.9,
+          "Points on Bench": 6,
+          "Bank Money": 0.3,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Sánchez",
+          "Underperformer Points": 0,
+          "Formation": "4-3-3",
+          "Defensive Points": 11,
+          "Attacking Points": 42,
+          "Chip Used": null,
+          "Performance vs Avg": -16.107142857142854,
+          "Rank Movement": 1785
+        }
+      ]
+    },
+    {
+      "manager_name": "Hadgim87",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 50,
+          "Rank": 3532593,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Foden",
+          "Vice-Captain Points": 2,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 100.0,
+          "Points on Bench": 11,
+          "Bank Money": 0.9,
+          "Top Scorer": "Thiago",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Keane",
+          "Underperformer Points": 0,
+          "Formation": "3-4-3",
+          "Defensive Points": 7,
+          "Attacking Points": 31,
+          "Chip Used": null,
+          "Performance vs Avg": 6.892857142857146,
+          "Rank Movement": 58587
+        }
+      ]
+    },
+    {
+      "manager_name": "TJ Sokol Mysločovice",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 45,
+          "Rank": 5960474,
+          "Captain": "Ekitiké",
+          "Captain Points": 10,
+          "Vice-Captain": "Haaland",
+          "Vice-Captain Points": 2,
+          "Transfers": 2,
+          "Transfer Cost": 0,
+          "Team Value": 102.9,
+          "Points on Bench": 10,
+          "Bank Money": 0.1,
+          "Top Scorer": "Rice",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": true,
+          "Underperformer": "Keane",
+          "Underperformer Points": 0,
+          "Formation": "4-3-3",
+          "Defensive Points": 12,
+          "Attacking Points": 31,
+          "Chip Used": null,
+          "Performance vs Avg": 1.892857142857146,
+          "Rank Movement": 17617
+        }
+      ]
+    },
+    {
+      "manager_name": "tomastep",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 70,
+          "Rank": 219622,
+          "Captain": "Palmer",
+          "Captain Points": 4,
+          "Vice-Captain": "Watkins",
+          "Vice-Captain Points": 7,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 97.5,
+          "Points on Bench": 14,
+          "Bank Money": 2.9,
+          "Top Scorer": "Wirtz",
+          "Top Scorer Points": 10,
+          "Top Scorer Played": true,
+          "Underperformer": "Sánchez",
+          "Underperformer Points": 0,
+          "Formation": "4-4-2",
+          "Defensive Points": 13,
+          "Attacking Points": 28,
+          "Chip Used": null,
+          "Performance vs Avg": 26.892857142857146,
+          "Rank Movement": 12156
+        }
+      ]
+    },
+    {
+      "manager_name": "FK Valča",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 46,
+          "Rank": 5161965,
+          "Captain": "Raya",
+          "Captain Points": 4,
+          "Vice-Captain": "Souček",
+          "Vice-Captain Points": 1,
+          "Transfers": 0,
+          "Transfer Cost": 0,
+          "Team Value": 99.1,
+          "Points on Bench": 23,
+          "Bank Money": 1.0,
+          "Top Scorer": "Gabriel",
+          "Top Scorer Points": 9,
+          "Top Scorer Played": true,
+          "Underperformer": "Iwobi",
+          "Underperformer Points": 0,
+          "Formation": "5-3-2",
+          "Defensive Points": 26,
+          "Attacking Points": 7,
+          "Chip Used": null,
+          "Performance vs Avg": 2.892857142857146,
+          "Rank Movement": 267542
+        }
+      ]
+    },
+    {
+      "manager_name": "Egypt",
+      "gw_data": [
+        {
+          "Gameweek": 18,
+          "Points": 80,
+          "Rank": 39218,
+          "Captain": "Haaland",
+          "Captain Points": 4,
+          "Vice-Captain": "Foden",
+          "Vice-Captain Points": 2,
+          "Transfers": 1,
+          "Transfer Cost": 0,
+          "Team Value": 101.4,
+          "Points on Bench": 0,
+          "Bank Money": 0.5,
+          "Top Scorer": "Thiago",
+          "Top Scorer Points": 17,
+          "Top Scorer Played": false,
+          "Underperformer": "Pickford",
+          "Underperformer Points": 1,
+          "Formation": "4-4-2",
+          "Defensive Points": 9,
+          "Attacking Points": 21,
+          "Chip Used": "bboost",
+          "Performance vs Avg": 36.892857142857146,
+          "Rank Movement": 1089
+        }
+      ]
+    }
+  ],
+  "league_standings": [
+    {
+      "Team Name": "FC Zlín",
+      "Points": 1047
+    },
+    {
+      "Team Name": "⚽Bright Future⚽",
+      "Points": 1061
+    },
+    {
+      "Team Name": "Sk Mistřín",
+      "Points": 1051
+    },
+    {
+      "Team Name": "K.V.B",
+      "Points": 1030
+    },
+    {
+      "Team Name": "Rabbits FC",
+      "Points": 1050
+    },
+    {
+      "Team Name": "KVETOS FC",
+      "Points": 1026
+    },
+    {
+      "Team Name": "špuntovky",
+      "Points": 997
+    },
+    {
+      "Team Name": "spajk",
+      "Points": 1016
+    },
+    {
+      "Team Name": "FC Chánov",
+      "Points": 980
+    },
+    {
+      "Team Name": "FC Totoro MEI",
+      "Points": 982
+    },
+    {
+      "Team Name": "TS9",
+      "Points": 990
+    },
+    {
+      "Team Name": "Taiateam",
+      "Points": 1006
+    },
+    {
+      "Team Name": "Sen Jirky Luňáka",
+      "Points": 947
+    },
+    {
+      "Team Name": "Larrychester Kngntd",
+      "Points": 949
+    },
+    {
+      "Team Name": "Jenda KTBFFH",
+      "Points": 943
+    },
+    {
+      "Team Name": "ZapleTeam",
+      "Points": 940
+    },
+    {
+      "Team Name": "RAM",
+      "Points": 926
+    },
+    {
+      "Team Name": "GRAFICI No.1",
+      "Points": 964
+    },
+    {
+      "Team Name": "SK Rusava",
+      "Points": 931
+    },
+    {
+      "Team Name": "Lokomotiva Prales",
+      "Points": 939
+    },
+    {
+      "Team Name": "Roman 11",
+      "Points": 937
+    },
+    {
+      "Team Name": "VALD�VALD",
+      "Points": 906
+    },
+    {
+      "Team Name": "Bea",
+      "Points": 908
+    },
+    {
+      "Team Name": "Hadgim87",
+      "Points": 894
+    },
+    {
+      "Team Name": "TJ Sokol Mysločovice",
+      "Points": 887
+    },
+    {
+      "Team Name": "tomastep",
+      "Points": 833
+    },
+    {
+      "Team Name": "FK Valča",
+      "Points": 506
+    },
+    {
+      "Team Name": "Egypt",
+      "Points": 252
+    }
+  ],
+  "awards": [
+    {
+      "type": "vestec",
+      "manager_names": [
+        "Sk Mistřín"
+      ],
+      "net_gain": 17
+    },
+    {
+      "type": "klaun",
+      "manager_names": [
+        "TJ Sokol Mysločovice"
+      ],
+      "net_gain": -27
+    },
+    {
+      "type": "king",
+      "manager_names": [
+        "Egypt"
+      ],
+      "points": 80
+    },
+    {
+      "type": "drevak",
+      "manager_names": [
+        "Bea"
+      ],
+      "points": 27
+    },
+    {
+      "type": "most_goals",
+      "manager_names": [
+        "tomastep"
+      ],
+      "goals": 5
+    },
+    {
+      "type": "smooth_brain",
+      "manager_names": [
+        "FK Valča"
+      ],
+      "bench_points": 23
+    },
+    {
+      "type": "karbanik",
+      "manager_names": [
+        "⚽Bright Future⚽",
+        "K.V.B",
+        "KVETOS FC",
+        "Jenda KTBFFH",
+        "ZapleTeam",
+        "Bea"
+      ],
+      "cards": 3,
+      "yellow": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "red": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "rocketeer",
+      "manager_names": [
+        "TS9"
+      ],
+      "rank_movement": 3
+    },
+    {
+      "type": "down_the_toilet",
+      "manager_names": [
+        "SK Rusava"
+      ],
+      "rank_movement": -2
+    }
+  ],
+  "effective_ownership": [
+    {
+      "player": "Haaland",
+      "percent": 75.0
+    },
+    {
+      "player": "Ekitiké",
+      "percent": 14.285714285714285
+    },
+    {
+      "player": "Rice",
+      "percent": 3.571428571428571
+    },
+    {
+      "player": "Palmer",
+      "percent": 3.571428571428571
+    },
+    {
+      "player": "Raya",
+      "percent": 3.571428571428571
+    }
+  ],
+  "most_common_players": {
+    "captains": [
+      {
+        "player": "Haaland",
+        "percent": 75.0
+      },
+      {
+        "player": "Ekitiké",
+        "percent": 14.285714285714285
+      },
+      {
+        "player": "Rice",
+        "percent": 3.571428571428571
+      },
+      {
+        "player": "Palmer",
+        "percent": 3.571428571428571
+      },
+      {
+        "player": "Raya",
+        "percent": 3.571428571428571
+      }
+    ],
+    "goalkeepers": [],
+    "defenders": [],
+    "midfielders": [],
+    "forwards": []
+  },
+  "killer_differentials": [],
+  "popular_moves": {
+    "transferred_in": [],
+    "transferred_out": []
+  },
+  "chips": [
+    {
+      "manager_name": "FC Zlín",
+      "chip": "3xc"
+    },
+    {
+      "manager_name": "KVETOS FC",
+      "chip": "freehit"
+    },
+    {
+      "manager_name": "špuntovky",
+      "chip": "3xc"
+    },
+    {
+      "manager_name": "TS9",
+      "chip": "bboost"
+    },
+    {
+      "manager_name": "Sen Jirky Luňáka",
+      "chip": "bboost"
+    },
+    {
+      "manager_name": "SK Rusava",
+      "chip": "wildcard"
+    },
+    {
+      "manager_name": "Egypt",
+      "chip": "bboost"
+    }
+  ],
+  "league_table": [
+    {
+      "Team Name": "FC Zlín",
+      "Manager": "Vít Bělíček",
+      "Total Points": 1047,
+      "GW Points": 59,
+      "Rank": 4,
+      "Last Rank": 4,
+      "Rank Movement": 0,
+      "Overall Rank": 871847,
+      "GW Rank": 8913471,
+      "Captain": "Rice",
+      "Captain Points": 15,
+      "Chip Used": "3xc",
+      "Transfers": "1 (+8)"
+    },
+    {
+      "Team Name": "⚽Bright Future⚽",
+      "Manager": "Jaromír Kaláb",
+      "Total Points": 1061,
+      "GW Points": 49,
+      "Rank": 1,
+      "Last Rank": 1,
+      "Rank Movement": 0,
+      "Overall Rank": 959806,
+      "GW Rank": 8913471,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "3 (-6)"
+    },
+    {
+      "Team Name": "Sk Mistřín",
+      "Manager": "Martin Daněk",
+      "Total Points": 1051,
+      "GW Points": 43,
+      "Rank": 2,
+      "Last Rank": 2,
+      "Rank Movement": 0,
+      "Overall Rank": 1100360,
+      "GW Rank": 3453299,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "2 (+17)"
+    },
+    {
+      "Team Name": "K.V.B",
+      "Manager": "Vladimír Juráň",
+      "Total Points": 1030,
+      "GW Points": 47,
+      "Rank": 5,
+      "Last Rank": 5,
+      "Rank Movement": 0,
+      "Overall Rank": 1180993,
+      "GW Rank": 821153,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "Rabbits FC",
+      "Manager": "Petr Müller",
+      "Total Points": 1050,
+      "GW Points": 45,
+      "Rank": 3,
+      "Last Rank": 3,
+      "Rank Movement": 0,
+      "Overall Rank": 1440462,
+      "GW Rank": 4866422,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "KVETOS FC",
+      "Manager": "Květoslav Hořčica",
+      "Total Points": 1026,
+      "GW Points": 48,
+      "Rank": 6,
+      "Last Rank": 6,
+      "Rank Movement": 0,
+      "Overall Rank": 1645817,
+      "GW Rank": 2607274,
+      "Captain": "Ekitiké",
+      "Captain Points": 10,
+      "Chip Used": "freehit",
+      "Transfers": "16 (-19)"
+    },
+    {
+      "Team Name": "špuntovky",
+      "Manager": "Jaroslav Vicher",
+      "Total Points": 997,
+      "GW Points": 52,
+      "Rank": 9,
+      "Last Rank": 9,
+      "Rank Movement": 0,
+      "Overall Rank": 2217228,
+      "GW Rank": 1187849,
+      "Captain": "Ekitiké",
+      "Captain Points": 15,
+      "Chip Used": "3xc",
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "spajk",
+      "Manager": "Michal Juran",
+      "Total Points": 1016,
+      "GW Points": 48,
+      "Rank": 7,
+      "Last Rank": 8,
+      "Rank Movement": 1,
+      "Overall Rank": 2353336,
+      "GW Rank": 7075534,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "1 (+4)"
+    },
+    {
+      "Team Name": "FC Chánov",
+      "Manager": "Ondřej Plecitý",
+      "Total Points": 980,
+      "GW Points": 46,
+      "Rank": 12,
+      "Last Rank": 11,
+      "Rank Movement": -1,
+      "Overall Rank": 2523157,
+      "GW Rank": 1585720,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "FC Totoro MEI",
+      "Manager": "Mark Tukies",
+      "Total Points": 982,
+      "GW Points": 44,
+      "Rank": 11,
+      "Last Rank": 10,
+      "Rank Movement": -1,
+      "Overall Rank": 2581333,
+      "GW Rank": 1984487,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "1 (+2)"
+    },
+    {
+      "Team Name": "TS9",
+      "Manager": "Tomas Stasek",
+      "Total Points": 990,
+      "GW Points": 69,
+      "Rank": 10,
+      "Last Rank": 13,
+      "Rank Movement": 3,
+      "Overall Rank": 2628691,
+      "GW Rank": 964977,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": "bboost",
+      "Transfers": "1 (-2)"
+    },
+    {
+      "Team Name": "Taiateam",
+      "Manager": "michele Taiariol",
+      "Total Points": 1006,
+      "GW Points": 35,
+      "Rank": 8,
+      "Last Rank": 7,
+      "Rank Movement": -1,
+      "Overall Rank": 2709265,
+      "GW Rank": 9535201,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "1 (+2)"
+    },
+    {
+      "Team Name": "Sen Jirky Luňáka",
+      "Manager": "Tomas Dederle",
+      "Total Points": 947,
+      "GW Points": 38,
+      "Rank": 15,
+      "Last Rank": 14,
+      "Rank Movement": -1,
+      "Overall Rank": 3680633,
+      "GW Rank": 515789,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": "bboost",
+      "Transfers": "1 (0)"
+    },
+    {
+      "Team Name": "Larrychester Kngntd",
+      "Manager": "Lary King",
+      "Total Points": 949,
+      "GW Points": 43,
+      "Rank": 14,
+      "Last Rank": 15,
+      "Rank Movement": 1,
+      "Overall Rank": 3789435,
+      "GW Rank": 1904371,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "5 (+15)"
+    },
+    {
+      "Team Name": "Jenda KTBFFH",
+      "Manager": "Honza Krčma",
+      "Total Points": 943,
+      "GW Points": 46,
+      "Rank": 16,
+      "Last Rank": 17,
+      "Rank Movement": 1,
+      "Overall Rank": 4277165,
+      "GW Rank": 3155976,
+      "Captain": "Ekitiké",
+      "Captain Points": 10,
+      "Chip Used": null,
+      "Transfers": "1 (-17)"
+    },
+    {
+      "Team Name": "ZapleTeam",
+      "Manager": "jakub Zapletal",
+      "Total Points": 940,
+      "GW Points": 35,
+      "Rank": 17,
+      "Last Rank": 16,
+      "Rank Movement": -1,
+      "Overall Rank": 4312272,
+      "GW Rank": 964977,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "RAM",
+      "Manager": "Tom Vicik",
+      "Total Points": 926,
+      "GW Points": 56,
+      "Rank": 21,
+      "Last Rank": 22,
+      "Rank Movement": 1,
+      "Overall Rank": 4481286,
+      "GW Rank": 1904371,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "1 (-1)"
+    },
+    {
+      "Team Name": "GRAFICI No.1",
+      "Manager": "ondra slovacek",
+      "Total Points": 964,
+      "GW Points": 38,
+      "Rank": 13,
+      "Last Rank": 12,
+      "Rank Movement": -1,
+      "Overall Rank": 4712648,
+      "GW Rank": 8146712,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "1 (+6)"
+    },
+    {
+      "Team Name": "SK Rusava",
+      "Manager": "Jura Benko",
+      "Total Points": 931,
+      "GW Points": 35,
+      "Rank": 20,
+      "Last Rank": 18,
+      "Rank Movement": -2,
+      "Overall Rank": 5156395,
+      "GW Rank": 6978376,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": "wildcard",
+      "Transfers": "6 (+13)"
+    },
+    {
+      "Team Name": "Lokomotiva Prales",
+      "Manager": "Jiri Dolezal",
+      "Total Points": 939,
+      "GW Points": 47,
+      "Rank": 18,
+      "Last Rank": 19,
+      "Rank Movement": 1,
+      "Overall Rank": 5166516,
+      "GW Rank": 8556004,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "Roman 11",
+      "Manager": "Roman Ambrož",
+      "Total Points": 937,
+      "GW Points": 52,
+      "Rank": 19,
+      "Last Rank": 20,
+      "Rank Movement": 1,
+      "Overall Rank": 5201735,
+      "GW Rank": 8191849,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "VALD�VALD",
+      "Manager": "Jakub Vald",
+      "Total Points": 906,
+      "GW Points": 40,
+      "Rank": 23,
+      "Last Rank": 23,
+      "Rank Movement": 0,
+      "Overall Rank": 5689592,
+      "GW Rank": 3254057,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "Bea",
+      "Manager": "Lukas Zamecnik",
+      "Total Points": 908,
+      "GW Points": 27,
+      "Rank": 22,
+      "Last Rank": 21,
+      "Rank Movement": -1,
+      "Overall Rank": 5801124,
+      "GW Rank": 3155976,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "2 (-4)"
+    },
+    {
+      "Team Name": "Hadgim87",
+      "Manager": "Radim Velísek",
+      "Total Points": 894,
+      "GW Points": 50,
+      "Rank": 24,
+      "Last Rank": 24,
+      "Rank Movement": 0,
+      "Overall Rank": 6432794,
+      "GW Rank": 4529199,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "TJ Sokol Mysločovice",
+      "Manager": "Ondřej Pavlačík",
+      "Total Points": 887,
+      "GW Points": 45,
+      "Rank": 25,
+      "Last Rank": 25,
+      "Rank Movement": 0,
+      "Overall Rank": 7320013,
+      "GW Rank": 7449709,
+      "Captain": "Ekitiké",
+      "Captain Points": 10,
+      "Chip Used": null,
+      "Transfers": "2 (-27)"
+    },
+    {
+      "Team Name": "tomastep",
+      "Manager": "Tomáš Teplý",
+      "Total Points": 833,
+      "GW Points": 70,
+      "Rank": 26,
+      "Last Rank": 26,
+      "Rank Movement": 0,
+      "Overall Rank": 7878716,
+      "GW Rank": 5225039,
+      "Captain": "Palmer",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "FK Valča",
+      "Manager": "Ondřej Valčík",
+      "Total Points": 506,
+      "GW Points": 46,
+      "Rank": 27,
+      "Last Rank": 27,
+      "Rank Movement": 0,
+      "Overall Rank": 11948723,
+      "GW Rank": 8913471,
+      "Captain": "Raya",
+      "Captain Points": 4,
+      "Chip Used": null,
+      "Transfers": "0"
+    },
+    {
+      "Team Name": "Egypt",
+      "Manager": "Ján Jancura",
+      "Total Points": 252,
+      "GW Points": 80,
+      "Rank": 28,
+      "Last Rank": 28,
+      "Rank Movement": 0,
+      "Overall Rank": 12426846,
+      "GW Rank": 9599418,
+      "Captain": "Haaland",
+      "Captain Points": 4,
+      "Chip Used": "bboost",
+      "Transfers": "1 (+7)"
+    }
+  ],
+  "league_graphs": {}
+}

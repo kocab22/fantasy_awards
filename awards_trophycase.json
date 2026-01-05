@@ -3,6 +3,12 @@
     "king": [
       1
     ],
+    "vestec": [
+      19
+    ],
+    "down_the_toilet": [
+      20
+    ],
     "most_goals": [
       5
     ],
@@ -17,6 +23,13 @@
     "drevak": [
       1,
       9
+    ],
+    "most_goals": [
+      17,
+      20
+    ],
+    "karbanik": [
+      18
     ]
   },
   "VALD�VALD": {
@@ -43,12 +56,22 @@
     ],
     "karbanik": [
       10,
+      17,
+      18,
       3
     ],
     "down_the_toilet": [
-      15
+      15,
+      19
+    ],
+    "vestec": [
+      17
+    ],
+    "most_goals": [
+      20
     ],
     "rocketeer": [
+      20,
       4
     ]
   },
@@ -57,16 +80,21 @@
       1,
       8
     ],
+    "rocketeer": [
+      18,
+      7
+    ],
+    "most_goals": [
+      20
+    ],
     "smooth_brain": [
       6
-    ],
-    "rocketeer": [
-      7
     ]
   },
   "Lokomotiva Prales": {
     "karbanik": [
-      1
+      1,
+      17
     ],
     "rocketeer": [
       14
@@ -87,20 +115,22 @@
       10
     ],
     "karbanik": [
-      12
+      12,
+      19
     ],
     "down_the_toilet": [
       16
+    ],
+    "rocketeer": [
+      17,
+      8,
+      9
     ],
     "klaun": [
       3
     ],
     "most_goals": [
       6
-    ],
-    "rocketeer": [
-      8,
-      9
     ]
   },
   "RAM": {
@@ -110,8 +140,14 @@
     "down_the_toilet": [
       12
     ],
+    "rocketeer": [
+      19
+    ],
     "smooth_brain": [
       2
+    ],
+    "most_goals": [
+      20
     ],
     "karbanik": [
       7
@@ -138,9 +174,11 @@
       6
     ],
     "most_goals": [
-      16
+      16,
+      17
     ],
     "karbanik": [
+      17,
       6
     ],
     "smooth_brain": [
@@ -150,15 +188,19 @@
   "tomastep": {
     "drevak": [
       10,
-      14
+      14,
+      17
     ],
     "king": [
       12
     ],
     "karbanik": [
-      16
+      16,
+      19
     ],
     "most_goals": [
+      18,
+      19,
       5
     ]
   },
@@ -178,7 +220,12 @@
       10
     ],
     "vestec": [
-      13
+      13,
+      18
+    ],
+    "karbanik": [
+      20,
+      4
     ],
     "king": [
       3,
@@ -188,17 +235,21 @@
       3,
       6,
       7
-    ],
-    "karbanik": [
-      4
     ]
   },
   "FC Zlín": {
     "karbanik": [
       10
     ],
+    "rocketeer": [
+      19,
+      9
+    ],
     "drevak": [
       2
+    ],
+    "smooth_brain": [
+      20
     ],
     "king": [
       4,
@@ -208,9 +259,6 @@
       4,
       5,
       8
-    ],
-    "rocketeer": [
-      9
     ]
   },
   "Roman 11": {
@@ -229,6 +277,9 @@
     "down_the_toilet": [
       12,
       7
+    ],
+    "king": [
+      17
     ]
   },
   "Jenda KTBFFH": {
@@ -246,6 +297,7 @@
     ],
     "karbanik": [
       14,
+      18,
       3,
       5,
       7,
@@ -269,6 +321,12 @@
     "klaun": [
       2,
       7
+    ],
+    "king": [
+      20
+    ],
+    "most_goals": [
+      20
     ],
     "drevak": [
       3
@@ -302,6 +360,12 @@
     "down_the_toilet": [
       13
     ],
+    "drevak": [
+      18
+    ],
+    "karbanik": [
+      18
+    ],
     "vestec": [
       3,
       9
@@ -326,6 +390,9 @@
       16,
       4,
       7
+    ],
+    "smooth_brain": [
+      19
     ],
     "down_the_toilet": [
       8
@@ -362,6 +429,7 @@
     ],
     "karbanik": [
       15,
+      18,
       3
     ],
     "rocketeer": [
@@ -379,6 +447,15 @@
     ],
     "drevak": [
       15
+    ],
+    "karbanik": [
+      17
+    ],
+    "smooth_brain": [
+      18
+    ],
+    "king": [
+      19
     ]
   },
   "TJ Sokol Mysločovice": {
@@ -387,7 +464,11 @@
       3
     ],
     "drevak": [
-      16
+      16,
+      19
+    ],
+    "klaun": [
+      18
     ],
     "smooth_brain": [
       5
@@ -412,6 +493,9 @@
     "smooth_brain": [
       16
     ],
+    "karbanik": [
+      18
+    ],
     "rocketeer": [
       5
     ],
@@ -431,6 +515,16 @@
       15,
       9
     ],
+    "klaun": [
+      17
+    ],
+    "drevak": [
+      17
+    ],
+    "down_the_toilet": [
+      17,
+      18
+    ],
     "karbanik": [
       2,
       9
@@ -442,14 +536,28 @@
     ],
     "klaun": [
       16
-    ]
-  },
-  "Larrychester Kngntd": {
-    "smooth_brain": [
-      3
+    ],
+    "karbanik": [
+      17
+    ],
+    "king": [
+      18
+    ],
+    "drevak": [
+      20
     ]
   },
   "GRAFICI No.1": {
+    "smooth_brain": [
+      17
+    ],
+    "klaun": [
+      19,
+      20
+    ],
+    "down_the_toilet": [
+      20
+    ],
     "king": [
       5
     ],
@@ -458,6 +566,14 @@
     ],
     "rocketeer": [
       6
+    ]
+  },
+  "Larrychester Kngntd": {
+    "vestec": [
+      20
+    ],
+    "smooth_brain": [
+      3
     ]
   }
 }
