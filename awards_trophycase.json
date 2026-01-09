@@ -3,6 +3,9 @@
     "king": [
       1
     ],
+    "karbanik": [
+      11
+    ],
     "vestec": [
       19
     ],
@@ -24,9 +27,16 @@
       1,
       9
     ],
+    "king": [
+      11
+    ],
     "most_goals": [
+      11,
       17,
       20
+    ],
+    "rocketeer": [
+      11
     ],
     "karbanik": [
       18
@@ -39,6 +49,9 @@
     "karbanik": [
       1,
       16
+    ],
+    "drevak": [
+      11
     ],
     "smooth_brain": [
       13
@@ -141,13 +154,18 @@
       12
     ],
     "rocketeer": [
-      19
+      19,
+      21
     ],
     "smooth_brain": [
       2
     ],
     "most_goals": [
-      20
+      20,
+      21
+    ],
+    "king": [
+      21
     ],
     "karbanik": [
       7
@@ -159,9 +177,14 @@
       14,
       2
     ],
+    "klaun": [
+      11,
+      21
+    ],
     "down_the_toilet": [
       13,
       15,
+      21,
       6
     ],
     "rocketeer": [
@@ -189,7 +212,8 @@
     "drevak": [
       10,
       14,
-      17
+      17,
+      21
     ],
     "king": [
       12
@@ -208,6 +232,12 @@
     "most_goals": [
       10
     ],
+    "drevak": [
+      11
+    ],
+    "karbanik": [
+      11
+    ],
     "down_the_toilet": [
       16
     ],
@@ -217,7 +247,8 @@
   },
   "Sk Mistřín": {
     "smooth_brain": [
-      10
+      10,
+      11
     ],
     "vestec": [
       13,
@@ -307,6 +338,88 @@
       7
     ]
   },
+  "⚽Bright Future⚽": {
+    "vestec": [
+      11,
+      15,
+      6
+    ],
+    "klaun": [
+      14
+    ],
+    "most_goals": [
+      15,
+      16,
+      5
+    ],
+    "karbanik": [
+      15,
+      18,
+      3
+    ],
+    "rocketeer": [
+      15,
+      7
+    ],
+    "down_the_toilet": [
+      2,
+      4
+    ]
+  },
+  "Bea": {
+    "klaun": [
+      11,
+      13,
+      21
+    ],
+    "karbanik": [
+      11,
+      18
+    ],
+    "down_the_toilet": [
+      11,
+      13
+    ],
+    "most_goals": [
+      12,
+      8
+    ],
+    "drevak": [
+      18
+    ],
+    "vestec": [
+      3,
+      9
+    ],
+    "rocketeer": [
+      9
+    ]
+  },
+  "KVETOS FC": {
+    "most_goals": [
+      11,
+      16,
+      4,
+      8
+    ],
+    "klaun": [
+      15,
+      4
+    ],
+    "smooth_brain": [
+      16
+    ],
+    "karbanik": [
+      18
+    ],
+    "rocketeer": [
+      5
+    ],
+    "king": [
+      6,
+      8
+    ]
+  },
   "Sen Jirky Luňáka": {
     "vestec": [
       12,
@@ -349,31 +462,6 @@
       8
     ]
   },
-  "Bea": {
-    "most_goals": [
-      12,
-      8
-    ],
-    "klaun": [
-      13
-    ],
-    "down_the_toilet": [
-      13
-    ],
-    "drevak": [
-      18
-    ],
-    "karbanik": [
-      18
-    ],
-    "vestec": [
-      3,
-      9
-    ],
-    "rocketeer": [
-      9
-    ]
-  },
   "špuntovky": {
     "king": [
       13
@@ -405,6 +493,7 @@
     ],
     "karbanik": [
       13,
+      21,
       9
     ],
     "klaun": [
@@ -412,33 +501,6 @@
     ],
     "down_the_toilet": [
       5
-    ]
-  },
-  "⚽Bright Future⚽": {
-    "klaun": [
-      14
-    ],
-    "vestec": [
-      15,
-      6
-    ],
-    "most_goals": [
-      15,
-      16,
-      5
-    ],
-    "karbanik": [
-      15,
-      18,
-      3
-    ],
-    "rocketeer": [
-      15,
-      7
-    ],
-    "down_the_toilet": [
-      2,
-      4
     ]
   },
   "FK Valča": {
@@ -470,6 +532,9 @@
     "klaun": [
       18
     ],
+    "vestec": [
+      21
+    ],
     "smooth_brain": [
       5
     ],
@@ -478,30 +543,6 @@
     ],
     "rocketeer": [
       9
-    ]
-  },
-  "KVETOS FC": {
-    "klaun": [
-      15,
-      4
-    ],
-    "most_goals": [
-      16,
-      4,
-      8
-    ],
-    "smooth_brain": [
-      16
-    ],
-    "karbanik": [
-      18
-    ],
-    "rocketeer": [
-      5
-    ],
-    "king": [
-      6,
-      8
     ]
   },
   "SK Rusava": {
@@ -523,7 +564,8 @@
     ],
     "down_the_toilet": [
       17,
-      18
+      18,
+      21
     ],
     "karbanik": [
       2,
@@ -573,6 +615,7 @@
       20
     ],
     "smooth_brain": [
+      21,
       3
     ]
   }
