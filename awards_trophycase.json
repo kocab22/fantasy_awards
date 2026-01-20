@@ -40,6 +40,9 @@
     ],
     "karbanik": [
       18
+    ],
+    "klaun": [
+      22
     ]
   },
   "VALD�VALD": {
@@ -100,6 +103,9 @@
     "most_goals": [
       20
     ],
+    "vestec": [
+      22
+    ],
     "smooth_brain": [
       6
     ]
@@ -116,11 +122,15 @@
       16,
       9
     ],
+    "drevak": [
+      22,
+      7
+    ],
+    "down_the_toilet": [
+      22
+    ],
     "klaun": [
       6
-    ],
-    "drevak": [
-      7
     ]
   },
   "FC Totoro MEI": {
@@ -129,7 +139,8 @@
     ],
     "karbanik": [
       12,
-      19
+      19,
+      22
     ],
     "down_the_toilet": [
       16
@@ -216,7 +227,8 @@
       21
     ],
     "king": [
-      12
+      12,
+      22
     ],
     "karbanik": [
       16,
@@ -225,6 +237,7 @@
     "most_goals": [
       18,
       19,
+      22,
       5
     ]
   },
@@ -387,6 +400,9 @@
     "drevak": [
       18
     ],
+    "smooth_brain": [
+      22
+    ],
     "vestec": [
       3,
       9
@@ -426,7 +442,8 @@
       5
     ],
     "rocketeer": [
-      12
+      12,
+      22
     ],
     "down_the_toilet": [
       13
@@ -459,6 +476,7 @@
       16
     ],
     "karbanik": [
+      22,
       8
     ]
   },
@@ -494,6 +512,7 @@
     "karbanik": [
       13,
       21,
+      22,
       9
     ],
     "klaun": [
@@ -511,7 +530,8 @@
       15
     ],
     "karbanik": [
-      17
+      17,
+      22
     ],
     "smooth_brain": [
       18
@@ -569,6 +589,7 @@
     ],
     "karbanik": [
       2,
+      22,
       9
     ]
   },
