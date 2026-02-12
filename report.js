@@ -321,6 +321,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 loadReport(3);
                 return;
             }
+            // Seřaď GW vzestupně
+            availableGWs.sort((a, b) => a - b);
             // Naplň selector pouze dostupnými GW
             selector.innerHTML = '';
             availableGWs.forEach(gw => {
