@@ -10,7 +10,8 @@
       19
     ],
     "down_the_toilet": [
-      20
+      20,
+      23
     ],
     "most_goals": [
       5
@@ -51,7 +52,8 @@
     ],
     "karbanik": [
       1,
-      16
+      16,
+      23
     ],
     "drevak": [
       11
@@ -60,7 +62,8 @@
       13
     ],
     "down_the_toilet": [
-      2
+      2,
+      25
     ],
     "klaun": [
       9
@@ -74,6 +77,7 @@
       10,
       17,
       18,
+      23,
       3
     ],
     "down_the_toilet": [
@@ -98,13 +102,18 @@
     ],
     "rocketeer": [
       18,
+      24,
       7
     ],
     "most_goals": [
-      20
+      20,
+      23
     ],
     "vestec": [
       22
+    ],
+    "king": [
+      24
     ],
     "smooth_brain": [
       6
@@ -116,7 +125,8 @@
       17
     ],
     "rocketeer": [
-      14
+      14,
+      23
     ],
     "most_goals": [
       16,
@@ -124,10 +134,12 @@
     ],
     "drevak": [
       22,
+      25,
       7
     ],
     "down_the_toilet": [
-      22
+      22,
+      24
     ],
     "klaun": [
       6
@@ -200,7 +212,8 @@
     ],
     "rocketeer": [
       14,
-      2
+      2,
+      23
     ],
     "drevak": [
       15,
@@ -209,13 +222,16 @@
     ],
     "most_goals": [
       16,
-      17
+      17,
+      24
     ],
     "karbanik": [
       17,
+      25,
       6
     ],
     "smooth_brain": [
+      24,
       7
     ]
   },
@@ -228,7 +244,8 @@
     ],
     "king": [
       12,
-      22
+      22,
+      23
     ],
     "karbanik": [
       16,
@@ -238,7 +255,11 @@
       18,
       19,
       22,
+      23,
       5
+    ],
+    "rocketeer": [
+      24
     ]
   },
   "spajk": {
@@ -249,7 +270,8 @@
       11
     ],
     "karbanik": [
-      11
+      11,
+      24
     ],
     "down_the_toilet": [
       16
@@ -290,7 +312,8 @@
       9
     ],
     "drevak": [
-      2
+      2,
+      23
     ],
     "smooth_brain": [
       20
@@ -324,6 +347,9 @@
     ],
     "king": [
       17
+    ],
+    "karbanik": [
+      23
     ]
   },
   "Jenda KTBFFH": {
@@ -342,12 +368,14 @@
     "karbanik": [
       14,
       18,
+      24,
       3,
       5,
       7,
       8
     ],
     "most_goals": [
+      24,
       7
     ]
   },
@@ -377,6 +405,9 @@
     "down_the_toilet": [
       2,
       4
+    ],
+    "smooth_brain": [
+      23
     ]
   },
   "Bea": {
@@ -404,6 +435,7 @@
       22
     ],
     "vestec": [
+      23,
       3,
       9
     ],
@@ -439,6 +471,7 @@
   "Sen Jirky Luňáka": {
     "vestec": [
       12,
+      25,
       5
     ],
     "rocketeer": [
@@ -464,7 +497,9 @@
   },
   "Rabbits FC": {
     "klaun": [
-      12
+      12,
+      23,
+      25
     ],
     "down_the_toilet": [
       15
@@ -478,6 +513,9 @@
     "karbanik": [
       22,
       8
+    ],
+    "smooth_brain": [
+      25
     ]
   },
   "špuntovky": {
@@ -516,6 +554,7 @@
       9
     ],
     "klaun": [
+      24,
       5
     ],
     "down_the_toilet": [
@@ -567,13 +606,16 @@
   },
   "SK Rusava": {
     "king": [
-      15
+      15,
+      25
     ],
     "most_goals": [
-      15
+      15,
+      25
     ],
     "rocketeer": [
       15,
+      25,
       9
     ],
     "klaun": [
@@ -585,11 +627,13 @@
     "down_the_toilet": [
       17,
       18,
-      21
+      21,
+      23
     ],
     "karbanik": [
       2,
       22,
+      23,
       9
     ]
   },
@@ -607,7 +651,11 @@
       18
     ],
     "drevak": [
-      20
+      20,
+      24
+    ],
+    "vestec": [
+      24
     ]
   },
   "GRAFICI No.1": {
@@ -638,6 +686,9 @@
     "smooth_brain": [
       21,
       3
+    ],
+    "karbanik": [
+      23
     ]
   }
 }
